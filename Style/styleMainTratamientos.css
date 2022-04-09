@@ -1,0 +1,92 @@
+/* main tratamientos */
+
+
+@keyframes titulo {
+    0%{ transform: scale(0.1);}
+    
+    
+    } 
+
+.h1Tratamientos{
+ animation-name: titulo;
+animation-duration:2s;
+       
+} 
+
+.h3PTratamientos h3{
+    animation-name: titulo;
+   animation-duration:2s;
+   
+           
+           
+} 
+
+.h3PTratamientos p{
+    animation-name: titulo;
+   animation-duration:3s;
+   
+           
+           
+} 
+
+.mainTratamientos{
+
+    background-image: url("https://i.imgur.com/E5OA6dP.jpg");
+
+}
+
+
+.h1Tratamientos {
+  display: flex;
+    justify-content: center;
+    justify-items:  center;
+    font-size: 50px;
+    color: rgba(112, 2, 70, 0.5);
+}
+
+
+.h3PTratamientos h3 {
+position: relative;
+    display: flex;
+    justify-content: center;
+    justify-items:  center;
+    font-size: 30px;
+    color: rgba(248, 4, 155, 0.5);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.h3PTratamientos p {
+
+    text-align: center;
+    font-size: 15px;
+    color: rgba(8, 8, 8, 0.5);
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+
+@media screen and (max-width: 768px){
+
+.h3PTratamientos p {
+
+       
+        font-size: 20px;
+        
+}
+    
+
+.h1Tratamientos {
+      
+          font-size: 60px;
+         
+}
+      
+      
+.h3PTratamientos h3 {
+    
+    font-size: 40px;
+  
+}
+    
+    
+}
+

@@ -1,0 +1,110 @@
+/* main testimonios */
+/*
+ .mainTestimonios{
+
+    background-image: url("https://i.imgur.com/6Y6W5Iz.jpg");
+     
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 2px;
+    height: 800px;
+
+}
+
+
+.mainTestimonios p {
+    text-align: center;
+    color: rgba(112, 2, 70, 0.5);
+    font-size: 60px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+  
+  }
+  .mainTestimonios h1 {
+    text-align: center;
+    color: rgba(112, 2, 70, 0.5);
+    font-size: 90px;
+
+    
+  }
+
+.iframeTestimonios iframe{
+    margin-top: 20px;
+   margin-left: 40%;
+   margin-right: 5% ;
+    height: 380px;
+    width: 50%;
+}
+ */
+
+ /* main nosotros */
+
+ .mainTestimonios{
+  background-image: url("https://i.imgur.com/6Y6W5Iz.jpg");
+
+
+  margin-bottom: 2px;
+   
+
+}
+
+
+.mainTestimonios p {
+    text-align: center;
+    color: rgba(112, 2, 70, 0.5);
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 15px;
+}
+
+
+
+  .mainTestimonios h1 {
+    display:  flex;
+    justify-content: center;
+    color: rgba(112, 2, 70, 0.5);
+    font-size: 90px;
+}
+ 
+
+
+
+
+ .iframeTestimonios{
+display: flex;
+position: relative;
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+animation-name: video;
+animation-duration:2s;
+}
+
+@keyframes video {
+  0%{ transform: scale(0.5);}
+  
+  
+  } 
+
+
+.iframeTestimonios iframe{
+  
+  height: 550px;
+  width: 50%;
+}  
+
+
+@media screen and (max-width: 768px){
+
+  
+.iframeTestimonios iframe{
+  
+  height: 100%;
+  width: 80%;
+}  
+
+}
+
+
+

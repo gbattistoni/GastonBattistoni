@@ -1,0 +1,66 @@
+/* main nosotros */
+
+  .mainNosotros{
+  background-image: url("https://i.imgur.com/t9wIuYo.jpg");
+
+  margin-bottom: 2px;
+
+
+    
+
+}
+
+
+.mainNosotros p {
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 900;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+
+  .mainNosotros h1 {
+    display:  flex;
+    justify-content: center;
+    color: white;
+    font-size: 90px;
+}
+ 
+
+.iframeNosotros{
+display: flex;
+
+justify-content: center;
+margin-bottom: 20px;
+margin-top: 20px;
+animation-name: video;
+animation-duration:2s;
+}
+
+.iframeNosotros iframe{
+  
+  height: 550px;
+  width: 50%;
+} 
+
+
+@keyframes video {
+  0%{ transform: scale(0.5);}
+  
+  
+  } 
+
+
+  
+@media screen and (max-width: 768px){
+
+  
+  .iframeNosotros iframe{
+    
+    height: 100%;
+    width: 80%;
+  }  
+  
+  }

@@ -1,0 +1,368 @@
+
+/* main pagina contactos */
+
+
+
+
+
+.mainContactos{
+
+    background-image: url("https://i.imgur.com/eBFobK9.jpg");
+    background-position-x: right;
+    
+    margin-left: 15px;
+    margin-right: 15px;
+
+   
+    
+
+
+}
+
+.contactosForm fieldset legend{
+
+    text-align: center;
+    color: white;
+    font-size: 80px;
+ 
+  
+}
+
+
+.contactos form {
+display: flex;
+position: relative;
+    width: 100%;
+ 
+  
+}
+
+.nombreContacto{
+
+    width: 350px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+  
+    border-color: rgba(112, 2, 70, 0.5);
+    
+}
+
+.telefonoContacto{
+
+    width: 350px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-bottom: 50px;
+  
+    border-color: rgba(112, 2, 70, 0.5);
+    
+}
+
+.emailContacto{
+
+    width: 350px;
+    height: 60px;
+    font-size: 30px;
+    margin-left: 15px;
+    margin-right: 650px;
+    margin-bottom: 50px;
+  
+    border-color: rgba(112, 2, 70, 0.5);
+    
+}
+
+
+.labelFacialContacto{
+
+    width: 350px;
+    height: 60px;
+    font-size: 50px;
+    margin-left: 15px;
+   
+  
+    
+}
+
+.radioFacialContacto{
+
+    width: 80px;
+    height: 40px;
+    font-size: 50px;
+    margin-left: 15px;
+  
+  
+    
+}
+
+.labelCorporalContacto{
+
+    width: 350px;
+    height: 60px;
+    font-size: 50px;
+    margin-left: 15px;
+   
+  
+    
+}
+
+.radioCorporalContacto{
+
+    width: 80px;
+    height: 40px;
+    font-size: 50px;
+    margin-left: 15px;
+   
+  
+    
+}
+
+.ciudadContacto{
+
+    width: 295px;
+    height: 40px;
+    font-size: 45px;
+    margin-left: 15px;
+   margin-right: 750px;
+   margin-bottom: 50px ;
+ 
+}
+
+.comentarioContacto{
+
+    width: 70%;
+    height: 300px;
+    font-size: 45px;
+    margin-left: 15px;
+  
+   
+ 
+}
+.botonLimpiarContactos{
+    margin-top: 15px;
+    margin-left: 1%;
+    margin-bottom:  1%;
+    margin-right: 51%;
+
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+ 
+  font-family: Arial;
+    color: white;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+    background: rgba(226, 105, 6, 0.5);
+   
+}
+
+
+.botonLimpiarContactos:hover {
+    background: #f05710;
+    background:linear-gradient(to bottom,rgb(245, 3, 3),rgb(8, 0, 3)  ); 
+    text-decoration: none;
+  }
+
+
+.botonEnviarContactos{
+    margin-top: 15px;
+    margin-left: 15px;
+    margin-bottom:  15px;
+    
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+
+    font-family: Arial;
+    color: white;
+    font-size: 27px;
+    padding: 19px;
+    text-decoration: none;
+    background: rgba(1, 48, 21, 0.5);
+}
+
+
+.botonEnviarContactos:hover {
+    background: rgba(1, 48, 21, 0.5);
+    background:linear-gradient(to bottom,rgb(4, 109, 77),rgb(8, 0, 3)  ); 
+    text-decoration: none;
+  }
+
+
+
+  @media screen and (max-width: 826px){
+
+  
+    
+
+
+
+    .contactosForm fieldset legend{
+
+        font-size: 30px;
+     
+      
+    }
+    
+    
+  
+    
+    .nombreContacto{
+    
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+      
+       
+        
+    }
+    
+    .telefonoContacto{
+    
+        width: 150px;
+        height: 40px;
+        font-size: 25px;
+        margin-left: 15px;
+        margin-bottom: 30px;
+        
+    }
+    
+    .emailContacto{
+    
+        width: 350px;
+        height: 60px;
+        font-size: 30px;
+        margin-left: 15px;
+        margin-right: 650px;
+        margin-bottom: 50px;
+      
+        border-color: rgba(112, 2, 70, 0.5);
+        
+    }
+    
+    
+    .labelFacialContacto{
+    
+        width: 350px;
+        height: 60px;
+        font-size: 50px;
+        margin-left: 15px;
+       
+      
+        
+    }
+    
+    .radioFacialContacto{
+    
+        width: 80px;
+        height: 40px;
+        font-size: 50px;
+        margin-left: 15px;
+      
+      
+        
+    }
+    
+    .labelCorporalContacto{
+    
+        width: 350px;
+        height: 60px;
+        font-size: 50px;
+        margin-left: 15px;
+       
+      
+        
+    }
+    
+    .radioCorporalContacto{
+    
+        width: 80px;
+        height: 40px;
+        font-size: 50px;
+        margin-left: 15px;
+       
+      
+        
+    }
+    
+    .ciudadContacto{
+    
+        width: 295px;
+        height: 40px;
+        font-size: 45px;
+        margin-left: 15px;
+       margin-right: 750px;
+       margin-bottom: 50px ;
+     
+    }
+    
+    .comentarioContacto{
+    
+        width: 70%;
+        height: 300px;
+        font-size: 45px;
+        margin-left: 15px;
+      
+       
+     
+    }
+    .botonLimpiarContactos{
+        margin-top: 15px;
+        margin-left: 1%;
+        margin-bottom:  1%;
+        margin-right: 51%;
+    
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+     
+      font-family: Arial;
+        color: white;
+        font-size: 27px;
+        padding: 19px;
+        text-decoration: none;
+        background: rgba(226, 105, 6, 0.5);
+       
+    }
+    
+    
+    .botonLimpiarContactos:hover {
+        background: #f05710;
+        background:linear-gradient(to bottom,rgb(245, 3, 3),rgb(8, 0, 3)  ); 
+        text-decoration: none;
+      }
+    
+    
+    .botonEnviarContactos{
+        margin-top: 15px;
+        margin-left: 15px;
+        margin-bottom:  15px;
+        
+        -webkit-border-radius: 28;
+        -moz-border-radius: 28;
+        border-radius: 28px;
+    
+        font-family: Arial;
+        color: white;
+        font-size: 27px;
+        padding: 19px;
+        text-decoration: none;
+        background: rgba(1, 48, 21, 0.5);
+    }
+    
+    
+    .botonEnviarContactos:hover {
+        background: rgba(1, 48, 21, 0.5);
+        background:linear-gradient(to bottom,rgb(4, 109, 77),rgb(8, 0, 3)  ); 
+        text-decoration: none;
+      }
+
+
+
+    
+    }

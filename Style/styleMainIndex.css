@@ -1,0 +1,127 @@
+
+
+
+
+/* MAIN  index*/
+
+/*  animacion  */
+
+@keyframes shake {
+  0%{ transform:  rotate(360deg);}
+  
+  
+  } 
+
+.mainImagen1 {
+   
+
+    grid-area: mainImagen1Area;
+    
+
+    
+  
+  } 
+
+  .mainImagen2 {
+
+    grid-area: mainImagen2Area;
+
+    
+  
+  } 
+  .mainImagen3 {
+   
+    grid-area: mainImagen3Area;
+
+    
+  
+  } 
+  .mainImagen4 {
+   
+    grid-area: mainImagen4Area;
+
+    
+  
+  } 
+  .mainImagen5 {
+   
+   
+    grid-area: mainImagen5Area;
+ 
+    
+  
+  } 
+  .mainImagen11 {
+   
+
+    grid-area: mainImagen11Area;
+  
+    
+  
+  } 
+
+
+
+.mainIndexClass{
+
+    grid-template-columns: repeat(1fr,1fr,1fr);
+    grid-template-rows: repeat(1fr,1fr);
+    display: grid;
+     align-items: center; 
+    grid-template-areas:
+    "mainImagen1Area mainImagen2Area mainImagen3Area"
+    "mainImagen4Area mainImagen5Area mainImagen11Area";
+    z-index: 2;
+
+}
+
+main{
+    position: relative;
+     background:linear-gradient(to left,rgb(247, 222, 229),rgb(245, 191, 206)  ); 
+  
+ 
+}
+
+.mainImg{
+
+animation-name: shake;
+animation-duration:1s;
+width: 98%;
+margin: 1% 1% 0% 1%;
+
+
+}
+
+
+
+.mainImg :hover{
+
+    transition-duration: 1s;
+    box-shadow:1px 1px 6px 6px rgb(77, 59, 65); 
+    opacity: 0.9;
+
+    transform: scale(0.95);
+
+    
+   
+}
+
+@media screen and (max-width: 768px){
+
+.mainIndexClass{
+
+  grid-template-columns: repeat(1fr,1fr);
+  grid-template-rows: repeat(1fr,1fr,1fr);
+ 
+  grid-template-areas:
+  "mainImagen1Area mainImagen2Area"
+  "mainImagen3Area mainImagen4Area"
+  "mainImagen5Area mainImagen11Area";
+
+
+}
+
+
+
+
+}
