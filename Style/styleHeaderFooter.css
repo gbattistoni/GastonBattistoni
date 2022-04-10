@@ -46,7 +46,7 @@
   
  .headerNav {
    
-    text-align: right;
+    text-align: center;
     text-decoration: none;
     grid-area: headerNavArea;
     font-size: 30px;
@@ -514,7 +514,34 @@ footer .fotterGoogleMaps iframe{
 } 
 
 
+
+
 /* footer */
+
+
+footer .fotterGoogleMaps {
+   
+  margin-left: 0%;
+  width: 100%;
+
+ 
+ 
+ 
+}
+
+.footerClass{
+
+ 
+      grid-template-columns: repeat(1fr,1fr,1fr);
+    
+      grid-template-areas:
+      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
+      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
+      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
+      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea";
+      
+
+}
  .footerNuetrasRedes{
   grid-template-columns: 100%;
   grid-template-rows: repeat(1fr,1fr,1fr,1fr);
