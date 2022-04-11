@@ -118,7 +118,7 @@ header nav ul li a:hover{
   background:linear-gradient(to bottom,rgb(231, 84, 128),rgb(46, 13, 23)  ); 
       box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
       grid-template-columns: repeat(1fr,1fr,1fr,1fr);
-      grid-template-rows: repeat(1fr,1fr,1fr,1fr);
+ 
       display: grid;
        align-items: center; 
       grid-template-areas:
@@ -533,10 +533,12 @@ footer .fotterGoogleMaps {
 
  
       grid-template-columns: repeat(1fr,1fr,1fr);
+      grid-template-rows: repeat(1fr,1fr,1fr,1fr,1fr);
     
       grid-template-areas:
       "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
       "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
+      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
       "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
       "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea";
       
