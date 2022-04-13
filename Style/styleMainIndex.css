@@ -6,11 +6,22 @@
 
 /*  animacion  */
 
-@keyframes shake {
-  0%{ transform:  rotate(360deg);}
+ @keyframes gira {
+  100%{ transform:  rotate(360deg);
+    animation-delay: 3s}
   
   
   } 
+
+  
+  @keyframes animar{
+    0% {
+     
+      box-shadow:1px 1px 6px 6px rgb(77, 59, 65); 
+      opacity: 0.9;
+  
+      transform: scale(0.95);}
+  }
 
 .mainImagen1 {
    
@@ -82,15 +93,30 @@ main{
  
 }
 
-.mainImg{
-
-animation-name: shake;
-animation-duration:1s;
-width: 98%;
-margin: 1% 1% 0% 1%;
 
 
+ .mainImg {
+ 
+  animation-name: animar;
+  animation-duration: 5s;
+ 
+  
+  width: 98%;
+  margin: 1% 1% 0% 1%;
+  animation-name: animar;
+  animation-duration: 5s;
+
+  
+}  
+
+.mainImg img{
+
+  animation-name: gira;
+  animation-duration:1s; 
+  width: 98%;
+  margin: 1% 1% 0% 1%;
 }
+
 
 
 
