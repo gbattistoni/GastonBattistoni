@@ -13,6 +13,14 @@
 
 
 
+@keyframes animar{
+  100% {
+    transition-duration: 5s;
+    opacity: 0.1;
+    transform: scale(0.95);
+   
+  }
+}
 
 
     
@@ -45,21 +53,21 @@
 
 
   
- .headerNav {
+ /* .headerNav {
    
     text-align: center;
     text-decoration: none;
     grid-area: headerNavArea;
     font-size: 30px;
+   
     
   
-  } 
-
+  }  */
 
 
 .headerClass{
 
-    background:linear-gradient(to top,rgb(231, 84, 128),rgb(104, 1, 30)  ); 
+  background:linear-gradient(to top,rgb(231, 84, 128),rgb(104, 1, 30)  ); 
     box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
     grid-template-columns: 10% 70% 20%;
     grid-template-rows: auto;
@@ -67,6 +75,15 @@
      align-items: center; 
     grid-template-areas:
     "headerLogoArea headerNavArea headerImgRedesArea";
+
+    
+    text-align: center;
+
+    grid-area: headerNavArea;
+    font-size: 30px;
+    animation-name: animar;
+    animation-duration:5s; 
+    background:linear-gradient(to top,rgb(15, 13, 14),rgb(139, 3, 41)  ); 
    
 
 }

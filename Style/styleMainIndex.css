@@ -7,7 +7,7 @@
 /*  animacion  */
 
 @keyframes shake {
-  0%{ transform:  rotate(360deg);}
+  100%{ transform:  rotate(360deg);}
   
   
   } 
@@ -85,7 +85,7 @@ main{
 .mainImg{
 
 animation-name: shake;
-animation-duration:1s;
+animation-duration:2s;
 width: 98%;
 margin: 1% 1% 0% 1%;
 
