@@ -8,7 +8,7 @@
 
  @keyframes gira {
   100%{ transform:  rotate(360deg);
-    animation-delay: 3s}
+    animation-delay: 4s}
   
   
   } 
@@ -88,7 +88,7 @@
 
 main{
     position: relative;
-     background:linear-gradient(to left,rgb(247, 222, 229),rgb(245, 191, 206)  ); 
+     background:linear-gradient(to left,rgb(238, 4, 70),rgb(245, 191, 206),rgb(239, 237, 237)  ); 
   
  
 }
@@ -96,15 +96,12 @@ main{
 
 
  .mainImg {
- 
-  animation-name: animar;
-  animation-duration: 5s;
- 
+
   
   width: 98%;
   margin: 1% 1% 0% 1%;
   animation-name: animar;
-  animation-duration: 5s;
+  animation-duration: 10s;
 
   
 }  
@@ -112,9 +109,8 @@ main{
 .mainImg img{
 
   animation-name: gira;
-  animation-duration:1s; 
-  width: 98%;
-  margin: 1% 1% 0% 1%;
+  animation-duration:4s; 
+
 }
 
 

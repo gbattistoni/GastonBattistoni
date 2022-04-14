@@ -15,7 +15,7 @@
 
 @keyframes animar{
   100% {
-    transition-duration: 5s;
+    transition-duration: 4s;
     opacity: 0.1;
     transform: scale(0.95);
    
@@ -67,7 +67,7 @@
 
 .headerClass{
 
-  background:linear-gradient(to top,rgb(231, 84, 128),rgb(104, 1, 30)  ); 
+ /*  background:linear-gradient(to top,rgb(231, 84, 128),rgb(104, 1, 30)  );  */
     box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
     grid-template-columns: 10% 70% 20%;
     grid-template-rows: auto;
