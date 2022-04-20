@@ -118,6 +118,9 @@ main {
   border-radius: 50%;
   animation-name: gira;
   animation-duration: 2s;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 5%;
 
 }
 
