@@ -1,0 +1,38 @@
+
+
+$color: red;
+ul {
+
+    display: flex;
+    a{
+        text-decoration: none;
+        &:hover{
+
+            color:red;
+        }
+    }
+  
+    p{
+        text-align: center;
+    }
+}
+
+main {
+
+section{
+    background-color: red;
+
+
+}
+
+article{
+
+    background-color: $color;
+    position: sticky;
+}
+    
+}
+
+
+
+

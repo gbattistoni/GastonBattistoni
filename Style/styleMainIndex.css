@@ -1,147 +1,155 @@
-
-
-
-
 /* MAIN  index*/
 
 /*  animacion  */
 
- @keyframes gira {
-  100%{ transform:  rotate(360deg);
-    animation-delay: 4s}
-  
-  
-  } 
-
-  
-  @keyframes animar{
-    0% {
-     
-      box-shadow:1px 1px 6px 6px rgb(77, 59, 65); 
-      opacity: 0.9;
-  
-      transform: scale(0.95);}
+@keyframes gira {
+  100% {
+    transform: rotate(360deg);
+    animation-delay: 4s
   }
 
-.mainImagen1 {
-   
-
-    grid-area: mainImagen1Area;
-    
-
-    
-  
-  } 
-
-  .mainImagen2 {
-
-    grid-area: mainImagen2Area;
-
-    
-  
-  } 
-  .mainImagen3 {
-   
-    grid-area: mainImagen3Area;
-
-    
-  
-  } 
-  .mainImagen4 {
-   
-    grid-area: mainImagen4Area;
-
-    
-  
-  } 
-  .mainImagen5 {
-   
-   
-    grid-area: mainImagen5Area;
- 
-    
-  
-  } 
-  .mainImagen11 {
-   
-
-    grid-area: mainImagen11Area;
-  
-    
-  
-  } 
-
-
-
-.mainIndexClass{
-
-    grid-template-columns: repeat(1fr,1fr,1fr);
-    grid-template-rows: repeat(1fr,1fr);
-    display: grid;
-     align-items: center; 
-    grid-template-areas:
-    "mainImagen1Area mainImagen2Area mainImagen3Area"
-    "mainImagen4Area mainImagen5Area mainImagen11Area";
-    z-index: 2;
 
 }
 
-main{
-    position: relative;
-     background:linear-gradient(to left,rgb(238, 4, 70),rgb(245, 191, 206),rgb(239, 237, 237)  ); 
-  
- 
-}
+@keyframes animar {
+  0% {
 
-
-
- .mainImg {
-
-  
-  width: 98%;
-  margin: 1% 1% 0% 1%;
-  animation-name: animar;
-  animation-duration: 10s;
-
-  
-}  
-
-.mainImg img{
-
-  animation-name: gira;
-  animation-duration:4s; 
-
-}
-
-
-
-
-.mainImg :hover{
-
-    transition-duration: 1s;
-    box-shadow:1px 1px 6px 6px rgb(77, 59, 65); 
+    box-shadow: 1px 1px 6px 6px rgb(77, 59, 65);
     opacity: 0.9;
 
     transform: scale(0.95);
-
-    
-   
+  }
 }
 
-@media screen and (max-width: 768px){
+.mainImagen1 {
 
-.mainIndexClass{
+  border-radius: 25%;
+  grid-area: mainImagen1Area;
 
-  grid-template-columns: repeat(1fr,1fr);
-  grid-template-rows: repeat(1fr,1fr,1fr);
- 
-  grid-template-areas:
-  "mainImagen1Area mainImagen2Area"
-  "mainImagen3Area mainImagen4Area"
-  "mainImagen5Area mainImagen11Area";
+
+  padding: 25px;
+
+}
+
+.mainImagen2 {
+  border-radius: 25%;
+  grid-area: mainImagen2Area;
+
+  padding: 25px;
+
+}
+
+.mainImagen3 {
+  border-radius: 25%;
+  grid-area: mainImagen3Area;
+
+  padding: 25px;
+
+}
+
+.mainImagen4 {
+  border-radius: 25%;
+  grid-area: mainImagen4Area;
+
+  padding: 25px;
+
+}
+
+.mainImagen5 {
+
+  border-radius: 25%;
+  grid-area: mainImagen5Area;
+  padding: 25px;
 
 
 }
+
+.mainImagen11 {
+
+  border-radius: 25%;
+  grid-area: mainImagen11Area;
+  padding: 25px;
+
+
+
+}
+
+
+
+.mainIndexClass {
+
+ /*  grid-template-columns: repeat(1fr, 1fr, 1fr);
+  grid-template-rows: repeat(1fr, 1fr); */
+ /*  display: grid; */
+  align-items: center;
+position: relative;
+display: inline;
+/*   grid-template-areas:
+    "mainImagen1Area mainImagen2Area mainImagen3Area"
+    "mainImagen4Area mainImagen5Area mainImagen11Area"; */
+  z-index: 2;
+
+}
+
+main {
+  position: relative;
+/*   background: linear-gradient(to left, rgb(238, 4, 70), rgb(245, 191, 206), rgb(239, 237, 237));
+
+  background: linear-gradient(to left, rgb(248, 208, 220), rgb(248, 158, 185)); */
+
+  background-image: url("https://i.imgur.com/t9wIuYo.jpg");
+
+
+}
+
+
+/*
+.mainImg {
+
+
+
+  animation-name: animar;
+  animation-duration: 10s;
+
+
+} */
+
+.mainImg img {
+  border-radius: 50%;
+  animation-name: gira;
+  animation-duration: 2s;
+
+}
+
+
+
+
+.mainImg :hover {
+
+  transition-duration: 1s;
+  box-shadow: 1px 1px 6px 6px rgb(77, 59, 65);
+  opacity: 0.9;
+
+  transform: scale(0.95);
+
+
+
+}
+
+@media screen and (max-width: 768px) {
+
+  /* .mainIndexClass {
+
+    grid-template-columns: repeat(1fr, 1fr);
+    grid-template-rows: repeat(1fr, 1fr, 1fr);
+
+    grid-template-areas:
+      "mainImagen1Area mainImagen2Area"
+      "mainImagen3Area mainImagen4Area"
+      "mainImagen5Area mainImagen11Area";
+
+
+  } */
 
 
 

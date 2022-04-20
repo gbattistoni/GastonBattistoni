@@ -1,195 +1,226 @@
-*{
+header {
 
-    margin: 0;
-    padding: 0;
-    
-    list-style: none;
-    box-sizing:  border-box;
-    font-family: 'Tangerine', serif;
+  margin: 0;
+  padding: 0;
 
-   
-    
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Tangerine', serif;
+
+
+}
+
+footer {
+
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+  box-sizing: border-box;
+  font-family: 'Tangerine', serif;
+
+
 }
 
 
 
-@keyframes animar{
+
+@keyframes animar {
   100% {
     transition-duration: 4s;
     opacity: 0.1;
     transform: scale(0.95);
-   
+
   }
 }
 
 
-    
-#menu-toggle{
-    display: none;
+
+#menu-toggle {
+  display: none;
 }
 
 /* header */
 .headerImgRedes {
-   
-    text-align: center;
-    padding: 5%;
-    grid-area: headerImgRedesArea;
 
-   
-  }
+  text-align: center;
+  padding: 5%;
+  grid-area: headerImgRedesArea;
+
+
+}
+
 .headerLogo {
-   
-    text-align: left;
-    grid-area: headerLogoArea;
-    
-   
-  }
- 
-  #idLodo{
-      padding: 5% ;
-      height: 100%;
-      width: 100%;
-  }
+
+  text-align: left;
+  grid-area: headerLogoArea;
 
 
-  
- /* .headerNav {
-   
-    text-align: center;
-    text-decoration: none;
-    grid-area: headerNavArea;
-    font-size: 30px;
-   
-    
-  
-  }  */
+}
+
+#idLodo {
+
+  height: 100%;
+  width: 100%;
+
+}
+
+#idLodoFacebook {
+
+  height: 30px;
+  width: 30px;
 
 
-.headerClass{
 
- /*  background:linear-gradient(to top,rgb(231, 84, 128),rgb(104, 1, 30)  );  */
-    box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
-    grid-template-columns: 10% 70% 20%;
-    grid-template-rows: auto;
-    display: grid;
-     align-items: center; 
-    grid-template-areas:
-    "headerLogoArea headerNavArea headerImgRedesArea";
 
-    
-    text-align: center;
 
-    grid-area: headerNavArea;
-    font-size: 30px;
-    animation-name: animar;
-    animation-duration:5s; 
-    background:linear-gradient(to top,rgb(15, 13, 14),rgb(139, 3, 41)  ); 
-   
+
+}
+
+#idLodoInstagram {
+
+  height: 30px;
+  width: 30px;
+
+
+}
+
+#idLodoWhatsapp {
+
+  height: 30px;
+  width: 30px;
+
+
 
 }
 
 
-  
-.headerNav a{
-    color: white;
-    text-decoration: none;
-     text-decoration: none;
-     padding: 2% 2% 2% 2%; 
-  
-
-   
-} 
-.headerNavUlLi{
-    display: inline;
-    border-radius: 50%;
-   
- 
-} 
 
 
-  
-
-.headerImgRedes img{
-     
-      width: 30px;
-      height: 30px;
-  }
 
 
-header nav ul li a:hover{
-   background-color: rgb(245, 241, 248);
-   color:rgb(231, 84, 128); 
-   transition-duration: 1s;
-   border-radius: 50%;
 
-} 
+.headerClass {
 
+
+  box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
+
+
+
+  font-size: 30px;
+  background: linear-gradient(to top, rgb(231, 84, 128), rgb(94, 27, 47));
+
+}
+
+
+header nav ul li a:hover {
+  background-color: rgba(112, 2, 70, 0.5);
+  color: rgb(20, 19, 19);
+  transition-duration: 1s;
+  border-radius: 50%;
+
+
+}
+
+
+#idLodoFacebook:hover {
+
+  height: 40px;
+  width: 40px;
+  transition-duration: 1s;
+
+
+
+
+}
+
+#idLodoInstagram:hover {
+
+  height: 40px;
+  width: 40px;
+  transition-duration: 1s;
+
+
+
+
+}
+
+#idLodoWhatsapp:hover {
+
+  height: 40px;
+  width: 40px;
+  transition-duration: 1s;
+
+
+
+
+}
 
 
 
 /* Footer */
 
 
-.footerClass{
+.footerClass {
 
-  
-  background:linear-gradient(to bottom,rgb(231, 84, 128),rgb(46, 13, 23)  ); 
-      box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
-      grid-template-columns: repeat(1fr,1fr,1fr,1fr);
- 
-      display: grid;
-       align-items: center; 
-      grid-template-areas:
-      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea fotterGoogleMapsArea";
- 
+
+  background: linear-gradient(to bottom, rgb(231, 84, 128), rgb(46, 13, 23));
+  box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
+  grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr);
+
+  display: grid;
+  align-items: center;
+  grid-template-areas:
+    "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea fotterGoogleMapsArea";
+
 
 }
 
 
 
 
-.aFacceboockFooterNuetrasRedes{
+.aFacceboockFooterNuetrasRedes {
 
   grid-area: aFacceboockFooterNuetrasRedesArea;
- 
- 
+
+
 
 }
 
-.footerNuetrasRedes img{
+.footerNuetrasRedes img {
 
- width: 25px;
- margin-bottom: 10px;
+  width: 25px;
+  margin-bottom: 10px;
 
 }
 
-.aInstagramFooterNuetrasRedes{
+.aInstagramFooterNuetrasRedes {
   grid-area: aInstagramFooterNuetrasRedesArea;
   display: inline;
 }
 
-.aTwiteerNuetrasRedes{
+.aTwiteerNuetrasRedes {
   grid-area: aTwiteerNuetrasRedesArea;
 
 
 }
 
-.footerNuetrasRedes{
+.footerNuetrasRedes {
 
   width: 100%;
-        height: 100%;
-        text-align: center;
+  height: 100%;
+  text-align: center;
 
 }
 
 
-.footerNuetrasRedes{
+.footerNuetrasRedes {
   grid-area: footerNuetrasRedesArea;
-  
+
 
 }
 
-.footerEnlacesInteress{
+.footerEnlacesInteress {
 
   grid-area: footerEnlacesInteressArea;
 
@@ -198,87 +229,88 @@ header nav ul li a:hover{
 
 
 
-.ulFooterEnlacesInteress{
+.ulFooterEnlacesInteress {
   grid-area: ulFooterEnlacesInteressArea;
 
 
 }
 
-.footerDatosDeContacto{
+.footerDatosDeContacto {
   grid-area: footerDatosDeContactoArea;
- 
+
 
 }
 
 
-.h3FooterDatosDeContacto{
+.h3FooterDatosDeContacto {
   grid-area: h3FooterDatosDeContactoArea;
 
 }
 
 
-.h3FooterEnlacesInteress{
+.h3FooterEnlacesInteress {
 
   grid-area: h3FooterEnlacesInteressArea;
 
 
 }
-.imgDireccion{
+
+.imgDireccion {
 
   grid-area: imgDireccionArea;
 
 }
 
-.pDireccion{
+.pDireccion {
 
   grid-area: pDireccionArea;
 
 }
 
-.imgWhatsapp{
+.imgWhatsapp {
 
   grid-area: imgWhatsappArea;
 }
 
-.pWhatsapp{
+.pWhatsapp {
 
   grid-area: pWhatsappArea;
 }
 
-.imgEmal{
+.imgEmal {
   grid-area: imgEmalArea;
 }
 
-.pEmal{
+.pEmal {
   grid-area: pEmalArea;
 
 }
 
-.footerDatosDeContacto{
+.footerDatosDeContacto {
 
-      width: 100%;
-       height: 100%;
-      grid-template-columns: repeat(100%,100%);
-      grid-template-rows: 60px 1fr 1fr 1fr;
-      display: grid;
-      padding-right: 20%;
-      
-      grid-template-areas:
-      "h3FooterDatosDeContactoArea h3FooterDatosDeContactoArea"
-      "imgDireccionArea pDireccionArea"
-      "imgWhatsappArea pWhatsappArea"
-      "imgEmalArea pEmalArea";
- 
+  width: 100%;
+  height: 100%;
+  grid-template-columns: repeat(100%, 100%);
+  grid-template-rows: 60px 1fr 1fr 1fr;
+  display: grid;
+  padding-right: 20%;
+
+  grid-template-areas:
+    "h3FooterDatosDeContactoArea h3FooterDatosDeContactoArea"
+    "imgDireccionArea pDireccionArea"
+    "imgWhatsappArea pWhatsappArea"
+    "imgEmalArea pEmalArea";
+
 
 }
 
-.h3FooterDatosDeContacto{
+.h3FooterDatosDeContacto {
 
-font-size: 25px;
- margin-top: 5%;
-   color:rgb(240, 232, 234); 
-   text-align: center;
- 
+  font-size: 25px;
+  margin-top: 5%;
+  color: rgb(240, 232, 234);
+  text-align: center;
+
 }
 
 .pDireccion {
@@ -294,13 +326,13 @@ font-size: 25px;
   text-align: right;
 }
 
-.imgWhatsapp img{
+.imgWhatsapp img {
 
-width: 25px;
-height: 25px;
+  width: 25px;
+  height: 25px;
 }
 
-.imgDireccion{
+.imgDireccion {
 
   text-align: right;
 }
@@ -317,83 +349,83 @@ height: 25px;
 
 }
 
-.imgEmal img{
- 
+.imgEmal img {
+
   width: 25px;
   height: 25px;
 
-  }
+}
 
-  .imgEmal{
-    text-align: right;
-    
-    }
- 
+.imgEmal {
+  text-align: right;
+
+}
 
 
-  .pEmal {
 
-    color: white;
-    font-size: 20x;
-    text-align: center;
-  
-  }
+.pEmal {
 
-.fotterGoogleMaps{
+  color: white;
+  font-size: 20x;
+  text-align: center;
+
+}
+
+.fotterGoogleMaps {
 
 
   grid-area: fotterGoogleMapsArea;
- 
+
 
 
 }
 
 footer .fotterGoogleMaps {
-   
-    margin-left: 10%;
-    width: 90%;
-    height: 100%; 
-   
-   
-   
+
+  margin-left: 10%;
+  width: 90%;
+  height: 100%;
+
+
+
 }
 
-footer .fotterGoogleMaps iframe{
+footer .fotterGoogleMaps iframe {
 
-    width: 100%;
-    height: 100%; 
-    position: relative;
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
 
 
-.h3FooterNuetrasRedes{
+.h3FooterNuetrasRedes {
 
- 
+
   color: white;
   font-size: 25px;
-  margin : 5%;
+  margin: 5%;
 
 
 }
 
 
-.footerEnlacesInteress{
-         width: 100%;
-        height: 100%;
-        text-align: center;
-        
+.footerEnlacesInteress {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+
 }
 
-.h3FooterEnlacesInteress{
+.h3FooterEnlacesInteress {
   font-size: 25px;
-  margin : 5%;
-   color:rgb(240, 232, 234); 
+  margin: 5%;
+  color: rgb(240, 232, 234);
 
- 
+
 }
 
 
-.ulFooterEnlacesInteress li a{
+.ulFooterEnlacesInteress li a {
   color: white;
   position: relative;
 
@@ -403,7 +435,7 @@ footer .fotterGoogleMaps iframe{
 }
 
 .ulFooterEnlacesInteress li {
-  
+
 
   margin-bottom: 10%;
 
@@ -411,12 +443,12 @@ footer .fotterGoogleMaps iframe{
 }
 
 
-.h3FooterNuetrasRedes{
+.h3FooterNuetrasRedes {
 
- 
+
   color: white;
   font-size: 25px;
-  margin : 5%;
+  margin: 5%;
 
 
 }
@@ -426,89 +458,95 @@ footer .fotterGoogleMaps iframe{
 
 /* responsive  header*/
 
-@media screen and (max-width: 768px){
+@media screen and (max-width: 990px) {
 
 
-  header nav ul li a:hover{
- background-color: rgb(15, 15, 15);
- color:rgb(240, 232, 234); 
- transition-duration: 1s;
- border-radius: 50%;
 
-} 
+  header nav ul li {
+
+    border-radius: 1%;
+    text-align: center;
+
+    margin-left: 80%;
+
+
+
+
+
+  }
 
   /* header */
-  .headerImgRedes img{
-   
-      width: 15px;
-      height: 15px;
-      text-align: right;
-      
-  }
-
-  .headerImgRedes {
+  /*   .headerImgRedes img{
  
-      text-align: right;
-  
+    width: 15px;
+    height: 15px;
+    text-align: right;
     
+}
+*/
+  /*   .headerImgRedes {
+
+    text-align: right;
+
   
-    }
 
-
-  .headerClass{
-
-      grid-template-columns: 10% 30% 60%;
-      grid-template-areas:
-      "headerLogoArea headerImgRedesArea headerNavArea";
-      z-index: 2;
-  
   }
+*/
+
+  /*   .headerClass{
+
+    grid-template-columns: 10% 30% 60%;
+    grid-template-areas:
+    "headerLogoArea headerImgRedesArea headerNavArea";
+    z-index: 2;
+
+}
+*/
 
 
-  
 
-
+  /* 
 .headerNavMenuHamburgesa nav {
-  display: none;
+display: none;
 }
 
 .headerNavMenuHamburgesa input:checked ~ nav {
-  display: block;
+display: block;
 }
 
 .headerNavMenuHamburgesa input:checked ~ .fa-bars {
-  display: none;
+display: none;
 }
 
 .headerNavMenuHamburgesa input:not(:checked) ~ .fa-times {
-  display: none;
-}
+display: none;
+} */
 
 
-.botonMenu span
+  /* .botonMenu span
 
 {
- display: block;
- width: 20px;
- height: 2px;
- background: white;
- margin-top: 3px;
- margin-left: 90%;
+display: block;
+width: 20px;
+height: 2px;
+background: white;
+margin-top: 3px;
+margin-left: 90%;
 
 }
+*/
 
-
-
+  /* 
 #trickMenu
 
 {
 
- display: none;
+display: none;
 
 
 }
-
-#trickMenu li a
+*/
+  /* #trickMenu li a
 
 {
 
@@ -517,140 +555,141 @@ font-size: 13px;
 
 
 }
+*/
 
 
-
-
+  /* 
 
 #menu-toggle:checked + #trickMenu
 
 {
 
 
- display: block;
+display: block;
 
 } 
+*/
+
+
+
+  /* footer */
+
+
+  footer .fotterGoogleMaps {
+
+    margin-left: 0%;
+    width: 100%;
 
 
 
 
-/* footer */
+  }
+
+  .footerClass {
 
 
-footer .fotterGoogleMaps {
- 
-margin-left: 0%;
-width: 100%;
+    grid-template-columns: repeat(1fr, 1fr, 1fr);
+    grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr, 1fr);
 
-
-
-
-}
-
-.footerClass{
-
-
-    grid-template-columns: repeat(1fr,1fr,1fr);
-    grid-template-rows: repeat(1fr,1fr,1fr,1fr,1fr);
-  
     grid-template-areas:
-    "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
-    "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
-    "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
-    "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
-    "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea";
-    
+      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
+      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
+      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
+      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
+      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea";
 
-}
-.footerNuetrasRedes{
-grid-template-columns: 100%;
-grid-template-rows: repeat(1fr,1fr,1fr,1fr);
-display: grid;
-grid-template-areas:
+
+  }
+
+  .footerNuetrasRedes {
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr);
+    display: grid;
+    grid-template-areas:
       "h3FooterNuetrasRedesArea"
       "aFacceboockFooterNuetrasRedesArea"
       "aInstagramFooterNuetrasRedesArea"
       "aTwiteerNuetrasRedesArea";
-      justify-content: center;
-      justify-items: center;
-      width: 100%;
-      height: 100%;
+    justify-content: center;
+    justify-items: center;
+    width: 100%;
+    height: 100%;
 
-} 
-
-
+  }
 
 
 
-.footerEnlacesInteress{
 
 
-grid-template-columns: 100%;
-grid-template-rows: repeat(1fr,1fr);
-display: grid;
-grid-template-areas:
+  .footerEnlacesInteress {
+
+
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(1fr, 1fr);
+    display: grid;
+    grid-template-areas:
       "h3FooterEnlacesInteressArea"
-      "ulFooterEnlacesInteressArea"       
-      ;
-      justify-content: center;
-      justify-items: center;
-     
-}
+      "ulFooterEnlacesInteressArea"
+    ;
+    justify-content: center;
+    justify-items: center;
 
-.ulFooterEnlacesInteress li {
+  }
 
-
-margin-bottom: 20%;
+  .ulFooterEnlacesInteress li {
 
 
-}
+    margin-bottom: 20%;
 
 
-
-.pDireccion {
-
-  
-  
-
-  text-align: center;
-
-}
+  }
 
 
 
-.imgDireccion{
-
-  margin-left: 10%;
-}
-
-.imgWhatsapp{
-
-  margin-left: 10%;
-}
+  .pDireccion {
 
 
 
-.pWhatsapp {
+
+    text-align: center;
+
+  }
 
 
- 
-  text-align: center;
 
-}
+  .imgDireccion {
 
-.imgEmal img{
+    margin-left: 10%;
+  }
 
-  margin-left: 10%;
+  .imgWhatsapp {
+
+    margin-left: 10%;
+  }
+
+
+
+  .pWhatsapp {
+
+
+
+    text-align: center;
+
+  }
+
+  .imgEmal img {
+
+    margin-left: 10%;
   }
 
 
 
   .pEmal {
 
-   
+
     font-size: 20x;
     text-align: center;
-  
+
   }
 
 
