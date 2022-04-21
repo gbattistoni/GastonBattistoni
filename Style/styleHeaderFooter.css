@@ -187,12 +187,6 @@ header nav ul li a:hover {
 
 }
 
-.footerNuetrasRedes img {
-
-  width: 25px;
-  margin-bottom: 10px;
-
-}
 
 .aInstagramFooterNuetrasRedes {
   grid-area: aInstagramFooterNuetrasRedesArea;
@@ -293,7 +287,7 @@ header nav ul li a:hover {
   grid-template-columns: repeat(100%, 100%);
   grid-template-rows: 60px 1fr 1fr 1fr;
   display: grid;
-  padding-right: 20%;
+  padding-right: 10%;
 
   grid-template-areas:
     "h3FooterDatosDeContactoArea h3FooterDatosDeContactoArea"
@@ -316,8 +310,8 @@ header nav ul li a:hover {
 .pDireccion {
 
   color: white;
-  font-size: 20x;
-  margin-top: 5%;
+  font-size: 20px;
+  margin-top: 20%;
   text-align: center;
 
 }
@@ -330,11 +324,6 @@ header nav ul li a:hover {
 
   width: 25px;
   height: 25px;
-}
-
-.imgDireccion {
-
-  text-align: right;
 }
 
 
@@ -430,6 +419,7 @@ footer .fotterGoogleMaps iframe {
   position: relative;
 
   margin-bottom: 10%;
+  font-size: 30px;
 
 
 }
@@ -443,13 +433,125 @@ footer .fotterGoogleMaps iframe {
 }
 
 
+/* arranca */
+
+.pDireccion {
+
+  text-align: left;
+  padding-left: 5%;
+  font-size: 40px;
+  margin-top: 30%;
+
+}
+
+
+.imgDireccion {
+
+
+
+  margin-top: 70px;
+  margin-left: 70%;
+
+
+}
+
+.imgDireccion img {
+
+
+  width: 40px;
+  height: 40px;
+
+
+
+}
+
+.imgWhatsapp img {
+
+  width: 40px;
+  height: 40px;
+
+}
+
+
+
+.pWhatsapp {
+
+  text-align: left;
+  padding-left: 5%;
+  font-size: 40px;
+  margin-top: 20%;
+
+}
+
+.imgWhatsapp {
+
+  margin-top: 60px;
+}
+
+.imgEmal img {
+
+  width: 40px;
+  height: 40px;
+}
+
+.imgEmal {
+
+  margin-top: 50px;
+}
+
+
+
+.pEmal {
+
+
+  text-align: left;
+  padding-left: 5%;
+  font-size: 40px;
+  padding-top: 20%;
+
+
+}
+
+.h3FooterEnlacesInteress {
+  font-size: 60px;
+
+
+}
+
+.h3FooterDatosDeContacto {
+  font-size: 60px;
+  text-align: center;
+  padding: 0px;
+
+
+}
+
 .h3FooterNuetrasRedes {
+  font-size: 60px;
+  padding: 0px;
 
 
-  color: white;
-  font-size: 25px;
-  margin: 5%;
 
+}
+
+.aFacceboockFooterNuetrasRedes img {
+  width: 50px;
+  height: 50px;
+  padding-right: 2%;
+
+}
+
+.aInstagramFooterNuetrasRedes img {
+  width: 50px;
+  height: 50px;
+  padding-right: 2%;
+
+}
+
+.aTwiteerNuetrasRedes img {
+  width: 50px;
+  height: 50px;
+  padding-right: 2%;
 
 }
 
@@ -470,105 +572,8 @@ footer .fotterGoogleMaps iframe {
     margin-left: 80%;
 
 
-
-
-
   }
 
-  /* header */
-  /*   .headerImgRedes img{
- 
-    width: 15px;
-    height: 15px;
-    text-align: right;
-    
-}
-*/
-  /*   .headerImgRedes {
-
-    text-align: right;
-
-  
-
-  }
-*/
-
-  /*   .headerClass{
-
-    grid-template-columns: 10% 30% 60%;
-    grid-template-areas:
-    "headerLogoArea headerImgRedesArea headerNavArea";
-    z-index: 2;
-
-}
-*/
-
-
-
-  /* 
-.headerNavMenuHamburgesa nav {
-display: none;
-}
-
-.headerNavMenuHamburgesa input:checked ~ nav {
-display: block;
-}
-
-.headerNavMenuHamburgesa input:checked ~ .fa-bars {
-display: none;
-}
-
-.headerNavMenuHamburgesa input:not(:checked) ~ .fa-times {
-display: none;
-} */
-
-
-  /* .botonMenu span
-
-{
-display: block;
-width: 20px;
-height: 2px;
-background: white;
-margin-top: 3px;
-margin-left: 90%;
-
-}
-*/
-
-  /* 
-#trickMenu
-
-{
-
-display: none;
-
-
-}
-*/
-  /* #trickMenu li a
-
-{
-
-color: #f5f3f5;
-font-size: 13px;
-
-
-}
-*/
-
-
-  /* 
-
-#menu-toggle:checked + #trickMenu
-
-{
-
-
-display: block;
-
-} 
-*/
 
 
 
@@ -581,41 +586,46 @@ display: block;
     width: 100%;
 
 
-
-
   }
 
   .footerClass {
 
 
-    grid-template-columns: repeat(1fr, 1fr, 1fr);
-    grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr, 1fr);
+
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
 
     grid-template-areas:
-      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
-      "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea"
-      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
-      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea"
-      "fotterGoogleMapsArea fotterGoogleMapsArea fotterGoogleMapsArea";
+      "footerDatosDeContactoArea"
+      "footerEnlacesInteressArea"
+      "footerNuetrasRedesArea"
+      "fotterGoogleMapsArea"
+      "fotterGoogleMapsArea"
+      "fotterGoogleMapsArea";
+    font-size: 40px;
 
 
   }
 
-  .footerNuetrasRedes {
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr);
-    display: grid;
-    grid-template-areas:
-      "h3FooterNuetrasRedesArea"
-      "aFacceboockFooterNuetrasRedesArea"
-      "aInstagramFooterNuetrasRedesArea"
-      "aTwiteerNuetrasRedesArea";
-    justify-content: center;
-    justify-items: center;
+
+
+
+  .footerDatosDeContacto {
+
     width: 100%;
     height: 100%;
+    grid-template-columns: repeat(1fr);
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    display: grid;
+    padding-right: 0px;
+    grid-template-areas:
+      "h3FooterDatosDeContactoArea"
+      "imgDireccionArea pDireccionArea"
+      "imgWhatsappArea pWhatsappArea"
+      "imgEmalArea pEmalArea";
 
   }
+
 
 
 
@@ -639,47 +649,75 @@ display: block;
   .ulFooterEnlacesInteress li {
 
 
-    margin-bottom: 20%;
+    margin-bottom: 10%;
+    font-size: 40px;
+
 
 
   }
+
 
 
 
   .pDireccion {
 
-
-
-
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 40px;
+    margin-top: 0px;
 
   }
-
-
 
   .imgDireccion {
+    margin-top: 0px;
+    pading-left: 5%;
 
-    margin-left: 10%;
   }
+
+  .imgDireccion img {
+
+    width: 30px;
+    height: 30px;
+    margin-left: 80%;
+
+
+  }
+
 
   .imgWhatsapp {
 
-    margin-left: 10%;
+    margin-top: 0px;
+  }
+
+  .imgWhatsapp img {
+
+    width: 30px;
+    height: 30px;
+
   }
 
 
 
   .pWhatsapp {
 
+    text-align: left;
+    padding-left: 5%;
+    font-size: 40px;
+    margin-top: 0px;
+
+  }
 
 
-    text-align: center;
+  .imgEmal {
 
+    margin-top: 0px;
   }
 
   .imgEmal img {
 
-    margin-left: 10%;
+    width: 30px;
+    height: 30px;
+
   }
 
 
@@ -687,10 +725,60 @@ display: block;
   .pEmal {
 
 
-    font-size: 20x;
-    text-align: center;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 40px;
+    padding-top: 0px;
+
 
   }
 
+  .h3FooterEnlacesInteress {
+    font-size: 60px;
+
+
+  }
+
+  .h3FooterDatosDeContacto {
+    font-size: 60px;
+    text-align: center;
+    padding: 0px;
+
+
+
+    margin-bottom: 100px;
+
+
+
+  }
+
+  .h3FooterNuetrasRedes {
+    font-size: 60px;
+    padding: 0px;
+
+
+
+  }
+
+  .aFacceboockFooterNuetrasRedes img {
+    width: 50px;
+    height: 50px;
+    padding-right: 2%;
+
+  }
+
+  .aInstagramFooterNuetrasRedes img {
+    width: 50px;
+    height: 50px;
+    padding-right: 2%;
+
+  }
+
+  .aTwiteerNuetrasRedes img {
+    width: 50px;
+    height: 50px;
+    padding-right: 2%;
+
+  }
 
 }

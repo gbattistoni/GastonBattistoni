@@ -75,16 +75,62 @@
 }
 
 
+/* arranca */
+.mainImagen1 img {
+
+  border-radius: 25%;
+
+
+}
+
+.mainImagen2 img {
+
+  padding: 25px;
+
+}
+
+.mainImagen3 img {
+  border-radius: 25%;
+
+
+}
+
+.mainImagen4 img {
+  border-radius: 25%;
+  grid-area: mainImagen4Area;
+
+  padding: 25px;
+
+}
+
+.mainImagen5 img {
+
+  border-radius: 25%;
+
+
+
+}
+
+.mainImagen11 img {
+
+  border-radius: 25%;
+
+
+
+
+}
+
+
 
 .mainIndexClass {
 
- /*  grid-template-columns: repeat(1fr, 1fr, 1fr);
+  /*  grid-template-columns: repeat(1fr, 1fr, 1fr);
   grid-template-rows: repeat(1fr, 1fr); */
- /*  display: gri; */
+  /*  display: gri; */
   align-items: center;
-position: relative;
-display: inline;
-/*   grid-template-areas:
+  position: relative;
+  display: inline;
+  /*   grid-template-areas:
     "mainImagen1Area mainImagen2Area mainImagen3Area"
     "mainImagen4Area mainImagen5Area mainImagen11Area"; */
   z-index: 2;
@@ -93,7 +139,7 @@ display: inline;
 
 main {
   position: relative;
-/*   background: linear-gradient(to left, rgb(238, 4, 70), rgb(245, 191, 206), rgb(239, 237, 237));
+  /*   background: linear-gradient(to left, rgb(238, 4, 70), rgb(245, 191, 206), rgb(239, 237, 237));
 
   background: linear-gradient(to left, rgb(248, 208, 220), rgb(248, 158, 185)); */
 
@@ -103,21 +149,11 @@ main {
 }
 
 
-/*
-.mainImg {
-
-
-
-  animation-name: animar;
-  animation-duration: 10s;
-
-
-} */
 
 .mainImg img {
   border-radius: 50%;
   animation-name: gira;
-  animation-duration: 2s;
+  animation-duration: 1s;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
@@ -134,26 +170,6 @@ main {
   opacity: 0.9;
 
   transform: scale(0.95);
-
-
-
-}
-
-@media screen and (max-width: 768px) {
-
-  /* .mainIndexClass {
-
-    grid-template-columns: repeat(1fr, 1fr);
-    grid-template-rows: repeat(1fr, 1fr, 1fr);
-
-    grid-template-areas:
-      "mainImagen1Area mainImagen2Area"
-      "mainImagen3Area mainImagen4Area"
-      "mainImagen5Area mainImagen11Area";
-
-
-  } */
-
 
 
 
