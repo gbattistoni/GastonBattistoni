@@ -559,7 +559,7 @@ footer .fotterGoogleMaps iframe {
     border-radius: 1%;
     text-align: center;
 
-    margin-left: 0%;
+    margin-left: 50%;
 
 
   }
@@ -593,6 +593,7 @@ footer .fotterGoogleMaps iframe {
       "fotterGoogleMapsArea"
       "fotterGoogleMapsArea";
     font-size: 40px;
+
 
   }
 
@@ -659,7 +660,7 @@ footer .fotterGoogleMaps iframe {
 
   .imgDireccion {
     margin-top: 0px;
-    pading-left: 5%;
+   padding-left: 5%;
 
   }
 
@@ -667,7 +668,7 @@ footer .fotterGoogleMaps iframe {
 
     width: 30px;
     height: 30px;
-    margin-left: 80%;
+    margin-left: 10%;
 
 
   }
