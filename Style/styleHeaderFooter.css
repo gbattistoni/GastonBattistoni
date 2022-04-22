@@ -608,7 +608,7 @@ footer .fotterGoogleMaps iframe {
     width: 100%;
     height: 100%;
     grid-template-columns: repeat(1fr);
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px 100px 100px;
     display: grid;
     padding-right: 0px;
     grid-template-areas:
@@ -643,7 +643,7 @@ footer .fotterGoogleMaps iframe {
 
 
     margin-bottom: 10%;
-    font-size: 40px;
+    font-size: 10px;
 
 
 
@@ -656,13 +656,15 @@ footer .fotterGoogleMaps iframe {
     text-align: left;
     padding-left: 5%;
     font-size: 40px;
-    margin-top: 0px;
+    margin-top: 5px;
+ 
 
   }
 
   .imgDireccion {
     margin-top: 0px;
    padding-left: 5%;
+
 
   }
 

@@ -27,7 +27,7 @@
   grid-area: mainImagen1Area;
 
 
-  padding: 25px;
+
 
 }
 
@@ -35,7 +35,7 @@
   border-radius: 25%;
   grid-area: mainImagen2Area;
 
-  padding: 25px;
+ 
 
 }
 
@@ -43,7 +43,7 @@
   border-radius: 25%;
   grid-area: mainImagen3Area;
 
-  padding: 25px;
+  
 
 }
 
@@ -51,7 +51,7 @@
   border-radius: 25%;
   grid-area: mainImagen4Area;
 
-  padding: 25px;
+ 
 
 }
 
@@ -59,7 +59,6 @@
 
   border-radius: 25%;
   grid-area: mainImagen5Area;
-  padding: 25px;
 
 
 }
@@ -68,7 +67,7 @@
 
   border-radius: 25%;
   grid-area: mainImagen11Area;
-  padding: 25px;
+
 
 
 
@@ -85,7 +84,7 @@
 
 .mainImagen2 img {
 
-  padding: 25px;
+
 
 }
 
@@ -99,7 +98,7 @@
   border-radius: 25%;
   grid-area: mainImagen4Area;
 
-  padding: 25px;
+
 
 }
 
@@ -151,12 +150,13 @@ main {
 
 
 .mainImg img {
-  border-radius: 50%;
+  border-radius: 15%;
   animation-name: gira;
   animation-duration: 1s;
   padding-left: 5%;
   padding-right: 5%;
   padding-top: 5%;
+  padding-bottom: 5%;
 
 }
 

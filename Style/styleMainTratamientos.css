@@ -15,13 +15,13 @@
 
 }
 
-.h3PTratamientos h3 {
+/* .h3PTratamientos h3 {
     animation-name: titulo;
     animation-duration: 2s;
 
 
 
-}
+} */
 
 .h3PTratamientos p {
     animation-name: titulo;
@@ -52,10 +52,15 @@
     display: flex;
     justify-content: center;
     justify-items: center;
-    font-size: 30px;
+    font-size: 25px;
     color: rgba(248, 4, 155, 0.5);
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
+    animation-name: titulo;
+    animation-duration: 2s;
+    padding: ;
 }
 
 .h3PTratamientos p {
@@ -63,7 +68,9 @@
     text-align: center;
     font-size: 15px;
     color: rgba(8, 8, 8, 0.5);
-    font-family: Verdana, Geneva, Tahoma, sans-serif
+    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    margin: 5%;
+    
 }
 
 
@@ -86,7 +93,7 @@
 
     .h3PTratamientos h3 {
 
-        font-size: 40px;
+        font-size: 30px;
 
     }
 
