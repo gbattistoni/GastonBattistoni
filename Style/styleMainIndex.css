@@ -35,7 +35,7 @@
   border-radius: 25%;
   grid-area: mainImagen2Area;
 
- 
+
 
 }
 
@@ -43,7 +43,7 @@
   border-radius: 25%;
   grid-area: mainImagen3Area;
 
-  
+
 
 }
 
@@ -51,7 +51,7 @@
   border-radius: 25%;
   grid-area: mainImagen4Area;
 
- 
+
 
 }
 
@@ -82,11 +82,7 @@
 
 }
 
-.mainImagen2 img {
-
-
-
-}
+.mainImagen2 img {}
 
 .mainImagen3 img {
   border-radius: 25%;

@@ -15,14 +15,6 @@
 
 }
 
-/* .h3PTratamientos h3 {
-    animation-name: titulo;
-    animation-duration: 2s;
-
-
-
-} */
-
 .h3PTratamientos p {
     animation-name: titulo;
     animation-duration: 3s;
@@ -68,9 +60,9 @@
     text-align: center;
     font-size: 15px;
     color: rgba(8, 8, 8, 0.5);
-    font-family: Verdana, Geneva, Tahoma, sans-serif ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin: 5%;
-    
+
 }
 
 

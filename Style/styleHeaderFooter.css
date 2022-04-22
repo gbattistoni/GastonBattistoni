@@ -180,7 +180,7 @@ header nav ul li a:hover {
 
 .aInstagramFooterNuetrasRedes {
   grid-area: aInstagramFooterNuetrasRedesArea;
-  display: inline;
+
 }
 
 .aTwiteerNuetrasRedes {
@@ -215,7 +215,7 @@ header nav ul li a:hover {
 
 .ulFooterEnlacesInteress {
   grid-area: ulFooterEnlacesInteressArea;
- 
+
   list-style: none;
 
 
@@ -245,31 +245,51 @@ header nav ul li a:hover {
 .imgDireccion {
 
   grid-area: imgDireccionArea;
+  margin-top: 50%;
+  margin-left: 55%;
 
 }
 
 .pDireccion {
 
   grid-area: pDireccionArea;
+  color: white;
+  font-size: 20px;
+  text-align: center;
 
 }
 
 .imgWhatsapp {
 
   grid-area: imgWhatsappArea;
+  text-align: right;
+  margin-top: 30%;
 }
 
 .pWhatsapp {
 
   grid-area: pWhatsappArea;
+  color: white;
+  font-size: 20x;
+  text-align: center;
+  margin-top: 5%;
+  text-align: left;
+  padding-left: 5%;
+  font-size: 40px;
+
 }
 
 .imgEmal {
   grid-area: imgEmalArea;
+  text-align: right;
+  margin-top: 15%;
 }
 
 .pEmal {
   grid-area: pEmalArea;
+  color: white;
+  font-size: 20x;
+  text-align: center;
 
 }
 
@@ -300,18 +320,9 @@ header nav ul li a:hover {
 
 }
 
-.pDireccion {
 
-  color: white;
-  font-size: 20px;
-  margin-top: 20%;
-  text-align: center;
 
-}
 
-.imgWhatsapp {
-  text-align: right;
-}
 
 .imgWhatsapp img {
 
@@ -321,56 +332,30 @@ header nav ul li a:hover {
 
 
 
-
-
-.pWhatsapp {
-
-  color: white;
-  font-size: 20x;
-  text-align: center;
-
-}
-
 .imgEmal img {
 
   width: 25px;
   height: 25px;
 
-}
-
-.imgEmal {
-  text-align: right;
 
 }
 
 
-
-.pEmal {
-
-  color: white;
-  font-size: 20x;
-  text-align: center;
-
-}
 
 .fotterGoogleMaps {
 
 
   grid-area: fotterGoogleMapsArea;
-
-
-
-}
-
-footer .fotterGoogleMaps {
-
   margin-left: 10%;
   width: 90%;
   height: 100%;
 
 
 
+
 }
+
+
 
 footer .fotterGoogleMaps iframe {
 
@@ -433,20 +418,12 @@ footer .fotterGoogleMaps iframe {
   text-align: left;
   padding-left: 5%;
   font-size: 40px;
-  margin-top: 30%;
+  margin-top: 15%;
 
 }
 
 
-.imgDireccion {
 
-
-
-  margin-top: 70px;
-  margin-left: 70%;
-
-
-}
 
 .imgDireccion img {
 
@@ -467,19 +444,8 @@ footer .fotterGoogleMaps iframe {
 
 
 
-.pWhatsapp {
 
-  text-align: left;
-  padding-left: 5%;
-  font-size: 40px;
-  margin-top: 20%;
 
-}
-
-.imgWhatsapp {
-
-  margin-top: 60px;
-}
 
 .imgEmal img {
 
@@ -487,10 +453,6 @@ footer .fotterGoogleMaps iframe {
   height: 40px;
 }
 
-.imgEmal {
-
-  margin-top: 50px;
-}
 
 
 
@@ -500,7 +462,7 @@ footer .fotterGoogleMaps iframe {
   text-align: left;
   padding-left: 5%;
   font-size: 40px;
-  padding-top: 20%;
+
 
 
 }
@@ -513,7 +475,7 @@ footer .fotterGoogleMaps iframe {
 
 .h3FooterDatosDeContacto {
   font-size: 60px;
-  text-align: center;
+
   padding: 0px;
 
 
@@ -632,8 +594,7 @@ footer .fotterGoogleMaps iframe {
     display: grid;
     grid-template-areas:
       "h3FooterEnlacesInteressArea"
-      "ulFooterEnlacesInteressArea"
-    ;
+      "ulFooterEnlacesInteressArea";
     justify-content: center;
     justify-items: center;
 
@@ -654,16 +615,16 @@ footer .fotterGoogleMaps iframe {
   .pDireccion {
 
     text-align: left;
-    padding-left: 5%;
+    padding-left: 2%;
     font-size: 40px;
     margin-top: 5px;
- 
+
 
   }
 
   .imgDireccion {
     margin-top: 0px;
-   padding-left: 5%;
+    padding-left: 25%;
 
 
   }
@@ -672,24 +633,26 @@ footer .fotterGoogleMaps iframe {
 
     width: 30px;
     height: 30px;
-    margin-left: 10%;
+
 
 
   }
 
 
-  .imgWhatsapp {
 
-    margin-top: 0px;
-  }
 
   .imgWhatsapp img {
 
     width: 30px;
     height: 30px;
 
+
   }
 
+  .imgWhatsapp {
+    margin: 2%;
+
+  }
 
 
   .pWhatsapp {
@@ -697,7 +660,7 @@ footer .fotterGoogleMaps iframe {
     text-align: left;
     padding-left: 5%;
     font-size: 40px;
-    margin-top: 0px;
+    margin-top: 2%;
 
   }
 
