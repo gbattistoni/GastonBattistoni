@@ -25,20 +25,10 @@ footer {
 
 
 
-@keyframes animar {
-  100% {
-    transition-duration: 4s;
-    opacity: 0.1;
-    transform: scale(0.95);
-
-  }
-}
 
 
 
-#menu-toggle {
-  display: none;
-}
+
 
 /* header */
 .headerImgRedes {
@@ -569,7 +559,7 @@ footer .fotterGoogleMaps iframe {
     border-radius: 1%;
     text-align: center;
 
-    margin-left: 80%;
+    margin-left: 0%;
 
 
   }
