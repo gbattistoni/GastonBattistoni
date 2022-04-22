@@ -215,6 +215,9 @@ header nav ul li a:hover {
 
 .ulFooterEnlacesInteress {
   grid-area: ulFooterEnlacesInteressArea;
+ 
+  list-style: none;
+
 
 
 }
@@ -645,7 +648,6 @@ footer .fotterGoogleMaps iframe {
 
 
   }
-
 
 
 
