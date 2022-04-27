@@ -1,0 +1,38 @@
+====================
+Clase 12 
+====================
+
+https://github.com/JonatanCespedes/Clase-12---media---pseudoClases
+
+====================
+Clase 13 
+====================
+
+https://github.com/JonatanCespedes/Clase-13---Sass1
+Nota: si clonas el repositorio de esta clase vas a tener que ejecutar en consola:
+npm install
+(dentro de la carpeta del proyecto)
+lo cual hará que se instalen las dependencias del proyecto.
+
+* Requisitos:
+- Tener instalado node y npm
+- Verificar en consola con: 
+node --version
+npm --version
+
+* Crear el proyecto de npm:
+npm init (camino largo, config manual)
+npm init -y (se arma un proyecto por defecto)
+
+* Instalar node-sass y nodemon:
+npm install -D node-sass nodemon
+
+* Copiar en el package.json dentro de los scripts:
+"build-css": "node-sass --include-path scss scss/prueba.scss css/pruebacss.css",
+"watch-css": "nodemon -e scss -x \"npm run build-css\""
+
+---Correr la compilacion con npm run watch-css---
+
+***************
+OCURRE LA MAGIA
+***************

@@ -1,0 +1,569 @@
+@import 'variables';
+
+
+footer {
+
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Tangerine', serif;
+
+
+
+
+    .footerClass {
+
+        /* uso de variables para el color del footer */
+
+        background: linear-gradient(to bottom, $colorFondoFooterMain1, $colorFondoFooterMain2);
+        box-shadow: 0 0 15px colorFondoFooterMain1;
+        grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr);
+
+        display: grid;
+        align-items: center;
+        grid-template-areas:
+            "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea fotterGoogleMapsArea";
+
+
+        /* nuestras redes */
+
+
+
+        .footerNuetrasRedes {
+            grid-area: footerNuetrasRedesArea;
+
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+
+            .h3FooterNuetrasRedes {
+                font-size: 60px;
+                padding: 0px;
+                color: rgb(240, 232, 234);
+
+
+
+
+
+            }
+
+
+            .aFacceboockFooterNuetrasRedes {
+
+                grid-area: aFacceboockFooterNuetrasRedesArea;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    padding-right: 2%;
+
+                }
+
+
+
+            }
+
+
+            .aInstagramFooterNuetrasRedes {
+                grid-area: aInstagramFooterNuetrasRedesArea;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    padding-right: 2%;
+
+                }
+
+            }
+
+            .aTwiteerNuetrasRedes {
+                grid-area: aTwiteerNuetrasRedesArea;
+
+                img {
+                    width: 50px;
+                    height: 50px;
+                    padding-right: 2%;
+
+                }
+            }
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+        /* enlaces de interes */
+
+        .footerEnlacesInteress {
+
+            grid-area: footerEnlacesInteressArea;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+
+            .ulFooterEnlacesInteress {
+                grid-area: ulFooterEnlacesInteressArea;
+
+                list-style: none;
+
+
+
+            }
+
+            .h3FooterEnlacesInteress {
+
+                grid-area: h3FooterEnlacesInteressArea;
+                font-size: 60px;
+                padding: 0px;
+                color: rgb(240, 232, 234);
+
+
+            }
+
+
+            li {
+
+
+                margin-bottom: 10%;
+
+                a {
+                    color: white;
+                    position: relative;
+
+                    margin-bottom: 10%;
+                    font-size: 30px;
+
+
+
+
+                }
+
+
+            }
+
+
+        }
+
+
+
+        /* datos de contacto */
+
+        .footerDatosDeContacto {
+            grid-area: footerDatosDeContactoArea;
+            width: 100%;
+            height: 100%;
+            grid-template-columns: repeat(100%, 100%);
+            grid-template-rows: 60px 1fr 1fr 1fr;
+            display: grid;
+            padding-right: 10%;
+
+            grid-template-areas:
+                "h3FooterDatosDeContactoArea h3FooterDatosDeContactoArea"
+                "imgDireccionArea pDireccionArea"
+                "imgWhatsappArea pWhatsappArea"
+                "imgEmalArea pEmalArea";
+
+
+            .imgEmal {
+                grid-area: imgEmalArea;
+                text-align: right;
+                margin-top: 15%;
+
+                img {
+
+                    width: 40px;
+                    height: 40px;
+                }
+            }
+
+            .pEmal {
+                grid-area: pEmalArea;
+                color: white;
+                text-align: left;
+                padding-left: 5%;
+                font-size: 40px;
+
+            }
+
+            .h3FooterDatosDeContacto {
+                grid-area: h3FooterDatosDeContactoArea;
+
+                font-size: 60px;
+                padding: 0px;
+
+                color: rgb(240, 232, 234);
+                text-align: center;
+
+            }
+
+            .imgDireccion {
+
+                grid-area: imgDireccionArea;
+
+
+                text-align: right;
+                margin-top: 30%;
+
+                img {
+
+
+                    width: 40px;
+                    height: 40px;
+
+
+
+                }
+
+            }
+
+            .pDireccion {
+
+                grid-area: pDireccionArea;
+                color: white;
+                font-size: 40px;
+                text-align: left;
+                padding-left: 5%;
+                margin-top: 15%;
+
+
+
+            }
+
+
+
+            .imgWhatsapp {
+
+                grid-area: imgWhatsappArea;
+                text-align: right;
+                margin-top: 30%;
+
+                img {
+
+                    width: 40px;
+                    height: 40px;
+
+                }
+            }
+
+            .pWhatsapp {
+
+                grid-area: pWhatsappArea;
+                color: white;
+                font-size: 20x;
+                text-align: center;
+                margin-top: 5%;
+                text-align: left;
+                padding-left: 5%;
+                font-size: 40px;
+
+            }
+
+
+
+
+
+
+
+
+
+        }
+
+        .fotterGoogleMaps {
+
+
+            grid-area: fotterGoogleMapsArea;
+            margin-left: 10%;
+            width: 90%;
+            height: 100%;
+
+
+            iframe {
+
+                width: 100%;
+                height: 100%;
+                position: relative;
+            }
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+    }
+
+    @media screen and (max-width: 990px) {
+
+        .footerClass .fotterGoogleMaps {
+
+
+
+
+            margin-left: 0%;
+            padding-left: 0%;
+            width: 100%;
+            height: 100%;
+
+            iframe {
+
+                width: 100%;
+                height: 100%;
+
+            }
+
+
+        }
+
+        .footerClass {
+
+
+
+            grid-template-columns: repeat(1fr);
+            grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
+
+            grid-template-areas:
+                "footerDatosDeContactoArea"
+                "footerEnlacesInteressArea"
+                "footerNuetrasRedesArea"
+                "fotterGoogleMapsArea"
+                "fotterGoogleMapsArea"
+                "fotterGoogleMapsArea";
+            font-size: 40px;
+
+
+
+
+
+
+
+            .footerDatosDeContacto {
+
+                width: 100%;
+                height: 100%;
+                grid-template-columns: repeat(1fr);
+                grid-template-rows: 100px 100px 100px 100px;
+                display: grid;
+                padding-right: 0px;
+                grid-template-areas:
+                    "h3FooterDatosDeContactoArea"
+                    "imgDireccionArea pDireccionArea"
+                    "imgWhatsappArea pWhatsappArea"
+                    "imgEmalArea pEmalArea";
+
+                .pDireccion {
+
+                    text-align: left;
+                    padding-left: 2%;
+                    font-size: 40px;
+                    margin-top: 5px;
+
+
+                }
+
+                .imgDireccion {
+                    margin: 2%;
+
+
+                    img {
+
+                        width: 30px;
+                        height: 30px;
+
+
+
+                    }
+
+
+                }
+
+
+
+
+
+                .imgWhatsapp {
+                    margin: 2%;
+
+                    img {
+
+                        width: 30px;
+                        height: 30px;
+
+
+                    }
+
+                }
+
+
+                .pWhatsapp {
+
+                    text-align: left;
+                    padding-left: 5%;
+                    font-size: 40px;
+                    margin-top: 2%;
+
+                }
+
+
+                .imgEmal {
+
+                    margin-top: 0px;
+
+                    img {
+
+                        width: 30px;
+                        height: 30px;
+
+                    }
+                }
+
+
+
+
+
+                .pEmal {
+
+
+                    text-align: left;
+                    padding-left: 5%;
+                    font-size: 40px;
+                    padding-top: 0px;
+
+
+                }
+
+
+            }
+
+
+
+
+
+
+            .footerEnlacesInteress {
+
+
+                grid-template-columns: 100%;
+                grid-template-rows: repeat(1fr, 1fr);
+                display: grid;
+                grid-template-areas:
+                    "h3FooterEnlacesInteressArea"
+                    "ulFooterEnlacesInteressArea";
+                justify-content: center;
+                justify-items: center;
+
+                li {
+
+
+                    margin-bottom: 10%;
+                    font-size: 10px;
+
+
+
+                }
+
+            }
+
+
+
+
+            .h3FooterEnlacesInteress {
+                font-size: 60px;
+
+
+            }
+
+            .h3FooterDatosDeContacto {
+                font-size: 60px;
+                text-align: center;
+                padding: 0px;
+
+
+
+                margin-bottom: 100px;
+
+
+
+            }
+
+            .h3FooterNuetrasRedes {
+                font-size: 60px;
+                padding: 0px;
+
+
+
+            }
+
+            .aFacceboockFooterNuetrasRedes img {
+                width: 50px;
+                height: 50px;
+                padding-right: 2%;
+
+            }
+
+            .aInstagramFooterNuetrasRedes img {
+                width: 50px;
+                height: 50px;
+                padding-right: 2%;
+
+            }
+
+            .aTwiteerNuetrasRedes img {
+                width: 50px;
+                height: 50px;
+                padding-right: 2%;
+
+            }
+
+        }
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.h3FooterEnlacesInteress {
+    font-size: 60px;
+
+
+}
+
+.h3FooterDatosDeContacto {
+    font-size: 60px;
+
+    padding: 0px;
+
+
+}

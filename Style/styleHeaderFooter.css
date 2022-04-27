@@ -1,4 +1,4 @@
-header {
+/* header {
 
   margin: 0;
   padding: 0;
@@ -8,9 +8,9 @@ header {
   font-family: 'Tangerine', serif;
 
 
-}
+} */
 
-footer {
+/* footer {
 
   margin: 0;
   padding: 0;
@@ -20,7 +20,7 @@ footer {
   font-family: 'Tangerine', serif;
 
 
-}
+} */
 
 
 
@@ -31,31 +31,31 @@ footer {
 
 
 /* header */
-.headerImgRedes {
+/* .headerImgRedes {
 
   text-align: center;
   padding: 5%;
   grid-area: headerImgRedesArea;
 
 
-}
+} */
 
-.headerLogo {
+/* .headerLogo {
 
   text-align: left;
   grid-area: headerLogoArea;
 
 
-}
-
+} */
+/* 
 #idLodo {
 
   height: 100%;
   width: 100%;
 
-}
+} */
 
-#idLodoFacebook {
+/* #idLodoFacebook {
 
   height: 30px;
   width: 30px;
@@ -82,14 +82,14 @@ footer {
 
 
 
-}
+} */
 
 
 
 
 
 
-
+/* 
 .headerClass {
 
 
@@ -101,18 +101,18 @@ footer {
   background: linear-gradient(to top, rgb(231, 84, 128), rgb(94, 27, 47));
 
 }
+ */
 
-
-header nav ul li a:hover {
+/*header  nav ul li a:hover {
   background-color: rgba(112, 2, 70, 0.5);
   color: rgb(20, 19, 19);
   transition-duration: 1s;
   border-radius: 50%;
 
 
-}
+} */
 
-
+/* 
 #idLodoFacebook:hover {
 
   height: 40px;
@@ -122,9 +122,9 @@ header nav ul li a:hover {
 
 
 
-}
+} */
 
-#idLodoInstagram:hover {
+/* #idLodoInstagram:hover {
 
   height: 40px;
   width: 40px;
@@ -133,7 +133,7 @@ header nav ul li a:hover {
 
 
 
-}
+} */
 
 #idLodoWhatsapp:hover {
 
@@ -151,7 +151,7 @@ header nav ul li a:hover {
 /* Footer */
 
 
-.footerClass {
+/* .footerClass {
 
 
   background: linear-gradient(to bottom, rgb(231, 84, 128), rgb(46, 13, 23));
@@ -165,11 +165,11 @@ header nav ul li a:hover {
 
 
 }
+ */
 
 
 
-
-.aFacceboockFooterNuetrasRedes {
+/* .aFacceboockFooterNuetrasRedes {
 
   grid-area: aFacceboockFooterNuetrasRedesArea;
 
@@ -202,11 +202,14 @@ header nav ul li a:hover {
   grid-area: footerNuetrasRedesArea;
 
 
-}
+} */
 
-.footerEnlacesInteress {
+/* .footerEnlacesInteress {
 
   grid-area: footerEnlacesInteressArea;
+  width: 100%;
+  height: 100%;
+  text-align: center;
 
 
 }
@@ -222,6 +225,42 @@ header nav ul li a:hover {
 
 }
 
+
+
+
+.h3FooterEnlacesInteress {
+
+  grid-area: h3FooterEnlacesInteressArea;
+  font-size: 25px;
+  margin: 5%;
+  color: rgb(240, 232, 234);
+
+
+}
+
+
+
+
+.ulFooterEnlacesInteress li a {
+  color: white;
+  position: relative;
+
+  margin-bottom: 10%;
+  font-size: 30px;
+
+
+}
+
+.ulFooterEnlacesInteress li {
+
+
+  margin-bottom: 10%;
+
+
+} */
+ 
+
+/*
 .footerDatosDeContacto {
   grid-area: footerDatosDeContactoArea;
 
@@ -231,14 +270,6 @@ header nav ul li a:hover {
 
 .h3FooterDatosDeContacto {
   grid-area: h3FooterDatosDeContactoArea;
-
-}
-
-
-.h3FooterEnlacesInteress {
-
-  grid-area: h3FooterEnlacesInteressArea;
-
 
 }
 
@@ -338,11 +369,11 @@ header nav ul li a:hover {
   height: 25px;
 
 
-}
+}*/
 
 
 
-.fotterGoogleMaps {
+/* .fotterGoogleMaps {
 
 
   grid-area: fotterGoogleMapsArea;
@@ -373,47 +404,14 @@ footer .fotterGoogleMaps iframe {
   margin: 5%;
 
 
-}
+} */
 
 
-.footerEnlacesInteress {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-
-}
-
-.h3FooterEnlacesInteress {
-  font-size: 25px;
-  margin: 5%;
-  color: rgb(240, 232, 234);
-
-
-}
-
-
-.ulFooterEnlacesInteress li a {
-  color: white;
-  position: relative;
-
-  margin-bottom: 10%;
-  font-size: 30px;
-
-
-}
-
-.ulFooterEnlacesInteress li {
-
-
-  margin-bottom: 10%;
-
-
-}
 
 
 /* arranca */
 
-.pDireccion {
+/* .pDireccion {
 
   text-align: left;
   padding-left: 5%;
@@ -510,11 +508,11 @@ footer .fotterGoogleMaps iframe {
 
 }
 
-
+ */
 
 
 /* responsive  header*/
-
+/* 
 @media screen and (max-width: 990px) {
 
 
@@ -527,7 +525,7 @@ footer .fotterGoogleMaps iframe {
     margin-left: 50%;
 
 
-  }
+  } */
 
 
 
@@ -535,7 +533,7 @@ footer .fotterGoogleMaps iframe {
   /* footer */
 
 
-  footer .fotterGoogleMaps {
+  /* footer .fotterGoogleMaps {
 
     margin-left: 0%;
     width: 100%;
@@ -736,6 +734,7 @@ footer .fotterGoogleMaps iframe {
     height: 50px;
     padding-right: 2%;
 
-  }
+  } */
 
-}
+
+

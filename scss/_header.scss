@@ -1,4 +1,111 @@
-h1{
+header {
 
-    color: red;
+    margin: 0;
+    padding: 0;
+
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'Tangerine', serif;
+
+    .headerClass {
+
+
+        box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
+
+
+
+        font-size: 30px;
+        background: linear-gradient(to top, $colorFondoFooterMain1, $colorFondoFooterMain2);
+
+
+        nav {
+
+            ul {
+                li {
+                    a:hover {
+                        background-color: rgba(112, 2, 70, 0.5);
+                        color: rgb(20, 19, 19);
+                        transition-duration: 1s;
+                        border-radius: 50%;
+                    }
+
+                }
+            }
+        }
+
+        #idLodoFacebook {
+
+            height: 30px;
+            width: 30px;
+
+            :hover {
+
+                height: 40px;
+                width: 40px;
+                transition-duration: 1s;
+
+
+
+
+            }
+
+
+
+        }
+
+        #idLodoInstagram {
+
+            height: 30px;
+            width: 30px;
+
+            :hover {
+
+                height: 40px;
+                width: 40px;
+                transition-duration: 1s;
+
+            }
+
+
+        }
+        #idLodoWhatsapp {
+
+            height: 30px;
+            width: 30px;
+
+            :hover {
+
+                height: 40px;
+                width: 40px;
+                transition-duration: 1s;
+
+            }
+
+
+
+        }
+
+    }
+
+    @media screen and (max-width: 990px) {
+
+
+
+            nav {
+                ul {
+                    li {
+
+                        border-radius: 1%;
+                        text-align: center;
+
+                        margin-left: 50%;
+                    }
+                }
+            }
+        }
+
+
+
+
+
 }
