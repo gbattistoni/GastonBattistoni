@@ -1,3 +1,5 @@
+
+@import 'variables';
 header {
 
     margin: 0;
@@ -10,7 +12,7 @@ header {
     .headerClass {
 
 
-        box-shadow: 0 0 15px rgba(112, 2, 70, 0.5);
+        box-shadow: 0 0 15px $colorFondoFooterMain2;
 
 
 
@@ -103,6 +105,9 @@ header {
                 }
             }
         }
+
+
+
 
 
 
