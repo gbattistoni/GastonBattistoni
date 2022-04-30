@@ -1,13 +1,7 @@
+/* este map se utiliza en el footer con la calse footerClass  */
+
+$mapColumGridFooter:("columnsFooterMas990": repeat(1fr, 1fr, 1fr, 1fr),
+    "columnsFooterMenos990": repeat(1fr),
 
 
-
-$mapColumGridFooter:(
-
-
-       
-        "columnsFooterMas990": repeat(1fr, 1fr, 1fr,1fr),
-        "columnsFooterMenos990": repeat(1fr),
-
-
-    );
-   
+);

@@ -1,4 +1,6 @@
 /* variabbles color fondo footer main */
+/* este map se utiliza en el footer con la calse footerClass  */
+/* este mixin se utiliza en el footer en la clase footerNuetrasRedes  */
 footer {
   margin: 0;
   padding: 0;
@@ -374,6 +376,7 @@ main {
       height: 100%;
       width: 80%; } }
 
+/* este mixin se utiliza en el footer en la clase footerNuetrasRedes  */
 /* variabbles color fondo footer main */
 .mainTratamientos {
   background-image: url("https://i.imgur.com/E5OA6dP.jpg"); }

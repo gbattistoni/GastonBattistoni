@@ -1,13 +1,12 @@
+/* este mixin se utiliza en el footer en la clase footerNuetrasRedes  */
+
 @mixin areaFooterNuetrasRedes($grid-area, $height, $width, $text-align) {
-
-
 
 
     grid-area: $grid-area;
     height: $height;
     width: $width;
     text-align: $text-align;
-
 
 
 }
