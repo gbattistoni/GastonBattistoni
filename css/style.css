@@ -71,7 +71,7 @@ footer {
       grid-template-rows: 60px 1fr 1fr 1fr;
       display: grid;
       padding-right: 10%;
-      grid-template-areas: "h3FooterDatosDeContactoArea h3FooterDatosDeContactoArea" "imgDireccionArea pDireccionArea" "imgWhatsappArea pWhatsappArea" "imgEmalArea pEmalArea"; }
+      grid-template-areas: "h3FooterDatosDeContactoArea h3FooterDatosDeContactoArea" "imgDireccionArea pDireccionArea" "imgWhatsappArea pWhatsappArea" "imgEmalArea pEmalArea"; }
       footer .footerClass .footerDatosDeContacto .imgEmal {
         grid-area: imgEmalArea;
         text-align: right;
@@ -142,7 +142,7 @@ footer {
     footer .footerClass {
       grid-template-columns: repeat(1fr);
       grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
-      grid-template-areas: "footerDatosDeContactoArea" "footerEnlacesInteressArea" "footerNuetrasRedesArea" "fotterGoogleMapsArea" "fotterGoogleMapsArea" "fotterGoogleMapsArea";
+      grid-template-areas: "footerDatosDeContactoArea" "footerEnlacesInteressArea" "footerNuetrasRedesArea" "fotterGoogleMapsArea" "fotterGoogleMapsArea" "fotterGoogleMapsArea";
       font-size: 40px; }
       footer .footerClass .footerDatosDeContacto {
         width: 100%;
@@ -151,7 +151,7 @@ footer {
         grid-template-rows: 100px 100px 100px 100px;
         display: grid;
         padding-right: 0px;
-        grid-template-areas: "h3FooterDatosDeContactoArea" "imgDireccionArea pDireccionArea" "imgWhatsappArea pWhatsappArea" "imgEmalArea pEmalArea"; }
+        grid-template-areas: "h3FooterDatosDeContactoArea" "imgDireccionArea pDireccionArea" "imgWhatsappArea pWhatsappArea" "imgEmalArea pEmalArea"; }
         footer .footerClass .footerDatosDeContacto .pDireccion {
           text-align: left;
           padding-left: 2%;
@@ -186,7 +186,7 @@ footer {
         grid-template-columns: 100%;
         grid-template-rows: repeat(1fr, 1fr);
         display: grid;
-        grid-template-areas: "h3FooterEnlacesInteressArea" "ulFooterEnlacesInteressArea";
+        grid-template-areas: "h3FooterEnlacesInteressArea" "ulFooterEnlacesInteressArea";
         justify-content: center;
         justify-items: center; }
         footer .footerClass .footerEnlacesInteress li {
