@@ -1,6 +1,6 @@
-
-
 @import 'variables';
+@import 'map';
+@import 'mixin';
 
 
 footer {
@@ -18,33 +18,33 @@ footer {
     .footerClass {
 
         /* uso de variables para el color del footer */
+        /* se utiliza maps para obtener la cantidad de columnas del grid */
 
         background: linear-gradient(to bottom, $colorFondoFooterMain1, $colorFondoFooterMain2);
-        box-shadow: 0 0 15px colorFondoFooterMain1;
-        grid-template-columns: repeat(1fr, 1fr, 1fr, 1fr);
+        box-shadow: 0 0 15px $colorFondoFooterMain1;
+        grid-template-columns: map-get($mapColumGridFooter, columnsFooterMas990);
+
 
         display: grid;
         align-items: center;
         grid-template-areas:
             "footerNuetrasRedesArea footerEnlacesInteressArea footerDatosDeContactoArea fotterGoogleMapsArea";
 
-
         /* nuestras redes */
 
 
-
+        /*  utilizo mixin para crear algunos atibutos de mi clase footerNuetrasRedes*/
         .footerNuetrasRedes {
-            grid-area: footerNuetrasRedesArea;
 
-            width: 100%;
-            height: 100%;
-            text-align: center;
+            @include areaFooterNuetrasRedes(footerNuetrasRedesArea, 100%, 100%, center);
 
 
             .h3FooterNuetrasRedes {
                 font-size: 60px;
                 padding: 0px;
                 color: rgb(240, 232, 234);
+
+
 
             }
 
@@ -335,9 +335,9 @@ footer {
 
         .footerClass {
 
+            /* utilizamos map para traer las columnas para el grid */
 
-
-            grid-template-columns: repeat(1fr);
+            grid-template-columns: map-get($mapColumGridFooter, columnsFooterMenos990);
             grid-template-rows: repeat(1fr, 1fr, 1fr, 1fr, 1fr, 1fr);
 
             grid-template-areas:
@@ -537,6 +537,3 @@ footer {
     }
 
 }
-
-
-

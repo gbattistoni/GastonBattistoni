@@ -1,0 +1,13 @@
+@mixin areaFooterNuetrasRedes($grid-area, $height, $width, $text-align) {
+
+
+
+
+    grid-area: $grid-area;
+    height: $height;
+    width: $width;
+    text-align: $text-align;
+
+
+
+}
