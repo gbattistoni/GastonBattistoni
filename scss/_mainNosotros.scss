@@ -1,0 +1,72 @@
+@import 'variables';
+
+.mainNosotros {
+    background-image: url("https://i.imgur.com/t9wIuYo.jpg");
+
+    margin-bottom: 2px;
+
+
+
+
+
+
+
+    p {
+        text-align: center;
+        color: $white;
+        font-size: 20px;
+        font-weight: 900px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+
+
+    h3 {
+        display: flex;
+        justify-content: center;
+        color: $white;
+        font-size: 50px;
+    }
+
+
+    .iframeNosotros {
+        display: flex;
+
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        animation-name: video;
+        animation-duration: 2s;
+
+        iframe {
+
+            height: 550px;
+            width: 50%;
+        }
+
+    }
+
+
+
+    @keyframes video {
+        0% {
+            transform: scale(0.5);
+        }
+
+
+    }
+
+
+
+    @media screen and (max-width: 768px) {
+
+
+       iframe {
+
+            height: 100%;
+            width: 80%;
+        }
+
+    }
+
+}

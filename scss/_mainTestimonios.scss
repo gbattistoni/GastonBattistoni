@@ -1,0 +1,66 @@
+@import 'variables';
+
+.mainTestimonios {
+    background-image: url("https://i.imgur.com/6Y6W5Iz.jpg");
+
+
+    margin-bottom: 2px;
+
+
+
+
+
+    p {
+        text-align: center;
+        color: $colorMainTestimonios;
+        font-size: 40px;
+        font-weight: 900;
+        font-family: 'Times New Roman', Times, serif;
+        padding-bottom: 15px;
+    }
+
+
+
+
+
+
+
+    .iframeTestimonios {
+        display: flex;
+        position: relative;
+        justify-content: center;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        animation-name: video;
+        animation-duration: $duracionAnimaciones;
+
+        iframe {
+
+            height: 550px;
+            width: 50%;
+        }
+    }
+
+    @keyframes video {
+        0% {
+            transform: scale(0.5);
+        }
+
+
+    }
+
+
+
+
+    @media screen and (max-width: 768px) {
+
+
+        .iframeTestimonios iframe {
+
+            height: 100%;
+            width: 80%;
+        }
+
+    }
+
+}
