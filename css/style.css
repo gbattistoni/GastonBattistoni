@@ -273,6 +273,11 @@ main {
     position: relative;
     display: inline;
     /* utilizo for para crear las 6 clases de las imagenes y asignarle borde radius */ }
+    main .mainIndexClass h1 {
+      display: flex;
+      justify-content: center;
+      color: rgba(112, 2, 70, 0.5);
+      font-size: 50px; }
 
 @keyframes gira {
   100% {
@@ -321,7 +326,7 @@ main {
     font-size: 20px;
     font-weight: 900px;
     font-family: 'Times New Roman', Times, serif; }
-  .mainNosotros h3 {
+  .mainNosotros h1 {
     display: flex;
     justify-content: center;
     color: white;
@@ -356,6 +361,11 @@ main {
     font-weight: 900;
     font-family: 'Times New Roman', Times, serif;
     padding-bottom: 15px; }
+  .mainTestimonios h1 {
+    display: flex;
+    justify-content: center;
+    color: rgba(112, 2, 70, 0.5);
+    font-size: 50px; }
   .mainTestimonios .iframeTestimonios {
     display: flex;
     position: relative;
