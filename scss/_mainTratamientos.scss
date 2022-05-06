@@ -1,10 +1,12 @@
 @import 'variables';
 
+
+
 .mainTratamientos {
 
-    background-image: url("https://i.imgur.com/E5OA6dP.jpg");
-
-
+     background-image: url("https://i.imgur.com/E5OA6dP.jpg"); 
+   
+    
 
     @keyframes titulo {
         0% {
@@ -36,7 +38,9 @@
             font-size: 15px;
             color: rgba(8, 8, 8, 0.5);
             font-family: Verdana, Geneva, Tahoma, sans-serif;
-            margin: 5%;
+         margin-left: 4%;
+         margin-right: 4%;
+         font-weight:900;
 
         }
 
@@ -92,3 +96,4 @@
 
     }
 }
+

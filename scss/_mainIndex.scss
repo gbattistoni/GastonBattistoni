@@ -1,27 +1,25 @@
-
-
 @import 'variables';
 
-main {
 
 
-
-    position: relative;
-
-
-    background-image: url("https://i.imgur.com/t9wIuYo.jpg");
-
+.fondo {
+    background-image: url("../imagen/fondo.jpg");
+  
 
 
     .mainIndexClass {
+
+
+
+
 
         h1 {
             display: flex;
             justify-content: center;
             color: $colorMainTestimonios;
             font-size: 50px;
-            }
 
+        }
 
         align-items: center;
         position: relative;
@@ -32,6 +30,7 @@ main {
             100% {
                 transform: rotate(360deg);
                 animation-delay: $duracionAnimaciones;
+
             }
 
 
@@ -61,6 +60,7 @@ main {
                 padding-right: 5%;
                 padding-top: 5%;
                 padding-bottom: 5%;
+
             }
 
             :hover {
@@ -81,6 +81,4 @@ main {
 
     }
 
-
 }
-

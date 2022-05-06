@@ -1,9 +1,13 @@
 @import 'variables';
 
 .mainNosotros {
-    background-image: url("https://i.imgur.com/t9wIuYo.jpg");
 
-    margin-bottom: 2px;
+
+    background-image: url("../imagen/fondonosotros.png");
+
+
+
+   
 
 
 
@@ -17,6 +21,7 @@
         font-size: 20px;
         font-weight: 900px;
         font-family: 'Times New Roman', Times, serif;
+        font-weight:900;
     }
 
 
@@ -24,9 +29,10 @@
     h1 {
         display: flex;
         justify-content: center;
-        color: $white;
+        color: $colorMainTestimonios;
         font-size: 50px;
-        }
+        font-weight:900;
+    }
 
 
     .iframeNosotros {
@@ -41,7 +47,7 @@
         iframe {
 
             height: 550px;
-            width: 50%;
+            width: 80%;
         }
 
     }
@@ -61,10 +67,10 @@
     @media screen and (max-width: 768px) {
 
 
-       iframe {
+        iframe {
 
-            height: 100%;
-            width: 80%;
+            height: 350px;
+            width: 100%;
         }
 
     }
