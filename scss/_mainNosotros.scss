@@ -7,7 +7,7 @@
 
 
 
-   
+
 
 
 
@@ -17,11 +17,14 @@
 
     p {
         text-align: center;
-        color: $white;
+        color: $colorFondoFooterMain2;
         font-size: 20px;
         font-weight: 900px;
         font-family: 'Times New Roman', Times, serif;
-        font-weight:900;
+        font-weight: 900;
+        margin-left: 1%;
+        margin-right: 1%;
+
     }
 
 
@@ -29,9 +32,11 @@
     h1 {
         display: flex;
         justify-content: center;
-        color: $colorMainTestimonios;
+        color: $colorFondoFooterMain2;
         font-size: 50px;
-        font-weight:900;
+        font-family: 'Tangerine', serif;
+        font-weight: 900;
+
     }
 
 
@@ -47,8 +52,9 @@
         iframe {
 
             height: 550px;
-            width: 80%;
+            width: 50%;
         }
+
 
     }
 
@@ -67,11 +73,20 @@
     @media screen and (max-width: 768px) {
 
 
-        iframe {
+        .iframeNosotros {
 
-            height: 350px;
-            width: 100%;
+
+            iframe {
+
+                height: 350px;
+                width: 80%;
+            }
+
+
+
         }
+
+
 
     }
 

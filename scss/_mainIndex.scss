@@ -3,8 +3,10 @@
 
 
 .fondo {
-    background-image: url("../imagen/fondo.jpg");
-  
+    background-image: url("../imagen/fondotrata.webp");
+    background-size: 100%;
+
+
 
 
     .mainIndexClass {
@@ -16,8 +18,11 @@
         h1 {
             display: flex;
             justify-content: center;
-            color: $colorMainTestimonios;
+            color: $colorFondoFooterMain2;
             font-size: 50px;
+            font-family: 'Tangerine', serif;
+            font-weight: 900;
+
 
         }
 
@@ -47,6 +52,9 @@
             .mainImagen#{$i} {
                 border-radius: 25%;
 
+
+
+
             }
         }
 
@@ -60,6 +68,9 @@
                 padding-right: 5%;
                 padding-top: 5%;
                 padding-bottom: 5%;
+
+
+
 
             }
 
@@ -80,5 +91,25 @@
 
 
     }
+
+    @media screen and (max-width: 980px) {
+
+
+        background-size: 100% 100%;
+
+
+    }
+
+    @media screen and (max-width: 575px) {
+
+
+        background-size: 100% 30%;
+
+
+    }
+
+
+
+
 
 }

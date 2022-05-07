@@ -3,7 +3,7 @@
 .mainTestimonios {
     background-image: url("https://i.imgur.com/6Y6W5Iz.jpg");
 
-
+    background-size: 100% 100%;
     margin-bottom: 2px;
 
 
@@ -12,8 +12,8 @@
 
     p {
         text-align: center;
-        color: $colorMainTestimonios;
-        font-size: 40px;
+        color: $colorFondoFooterMain2;
+        font-size: 20px;
         font-weight: 900;
         font-family: 'Times New Roman', Times, serif;
         padding-bottom: 15px;
@@ -24,9 +24,12 @@
     h1 {
         display: flex;
         justify-content: center;
-        color: $colorMainTestimonios;
+        color: $colorFondoFooterMain2;
         font-size: 50px;
-        }
+        font-family: 'Tangerine', serif;
+        font-weight: 900;
+
+    }
 
 
 
