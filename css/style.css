@@ -5,7 +5,6 @@ footer {
   margin: 0;
   padding: 0;
   list-style: none;
-  box-sizing: border-box;
   font-family: 'Tangerine', serif; }
   footer .footerClass {
     /* uso de variables para el color del footer */
@@ -226,7 +225,6 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
-  box-sizing: border-box;
   font-family: 'Tangerine', serif; }
   header .headerClass {
     box-shadow: 0 0 15px #2e0d17;
@@ -315,7 +313,8 @@ header {
       background-size: 100% 100%; } }
   @media screen and (max-width: 575px) {
     .fondo {
-      background-size: 100% 30%; } }
+      background-size: 100% 100%;
+      background-image: url("../imagen/fondo.jpg"); } }
 
 .contactoMain {
   background-image: url("../imagen/fondo.jpg");
