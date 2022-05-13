@@ -12,9 +12,6 @@
     .mainIndexClass {
 
 
-
-
-
         h1 {
             display: flex;
             justify-content: center;
@@ -22,7 +19,6 @@
             font-size: 50px;
             font-family: 'Tangerine', serif;
             font-weight: 900;
-
 
         }
 
@@ -88,29 +84,27 @@
 
         }
 
+        @media screen and (max-width: 980px) {
+
+
+            background-size: 100% 100%;
+
+
+        }
+
+        @media screen and (max-width: 575px) {
+
+
+            background-size: 100% 100%;
+
+            background-image: url("../imagen/fondo.jpg");
+
+
+        }
 
 
     }
 
-    @media screen and (max-width: 980px) {
-
-
-        background-size: 100% 100%;
-
-
-    }
-
-    @media screen and (max-width: 575px) {
-
-
-
-
-        background-image: url("../imagen/fondo.jpg");
-
-        background-size: 100% 100%;
-
-
-    }
 
 
 

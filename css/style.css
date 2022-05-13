@@ -308,13 +308,13 @@ header {
       box-shadow: 1px 1px 6px 6px #2e0d17;
       opacity: 0.9;
       transform: scale(0.95); }
-  @media screen and (max-width: 980px) {
-    .fondo {
-      background-size: 100% 100%; } }
-  @media screen and (max-width: 575px) {
-    .fondo {
-      background-image: url("../imagen/fondo.jpg");
-      background-size: 100% 100%; } }
+    @media screen and (max-width: 980px) {
+      .fondo .mainIndexClass {
+        background-size: 100% 100%; } }
+    @media screen and (max-width: 575px) {
+      .fondo .mainIndexClass {
+        background-size: 100% 100%;
+        background-image: url("../imagen/fondo.jpg"); } }
 
 .contactoMain {
   background-image: url("../imagen/fondo.jpg");
